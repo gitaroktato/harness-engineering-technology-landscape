@@ -5,7 +5,7 @@
 ```bash
 cd landscape
 uv sync
-uv run landscape html
+make html
 ```
 
 ## Using Python
@@ -36,15 +36,15 @@ Use `rg` instead of `grep` for searching faster between files.
 
 | Task | Command |
 | ------ | --------- |
-| Generate HTML landscape page | `uv run landscape html` |
-| Validate config (with GitHub API) | `make validate` / `uv run landscape validate` |
-| Force refresh GitHub cache | `make refresh` / `uv run landscape refresh` |
-| Show cache status | `make cache-info` / `uv run landscape cache-info` |
+| Generate HTML landscape page | `make html` |
+| Validate config (with GitHub API) | `make validate` |
+| Force refresh GitHub cache | `make refresh` |
+| Show cache status | `make cache-info` |
 | Run tests | `uv run pytest` |
 | Type-check | `uv run mypy` |
 | Lint | `uv run ruff check` |
 
-Set `GITHUB_TOKEN` before `validate`/`refresh` — unauthenticated GitHub API calls are limited to 60 requests/hour, authenticated get 5,000/hour.
+The Makefile sets `GITHUB_TOKEN` automatically (from the environment, falling back to `gh auth token`) — unauthenticated GitHub API calls are limited to 60 requests/hour, authenticated get 5,000/hour.
 
 ## Project Structure
 
@@ -87,7 +87,7 @@ Items without `repo` render without stars/forks.
 ## Cache
 
 - `.landscape-cache.json` — GitHub API responses cached for 24h (tracked in git; updated by `validate`/`refresh`)
-- `landscape html --force` or `uv run landscape refresh` bypasses cache
+- `make refresh` bypasses the cache
 
 ## Testing
 
