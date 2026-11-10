@@ -457,5 +457,122 @@
     "favicon_path": null,
     "fetched_at": 1794321159.8306792,
     "source": "github"
+  },
+  "alibaba/open-code-review": {
+    "key": "alibaba/open-code-review",
+    "stars": 49774,
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324300.4086328,
+    "source": "github"
+  },
+  "superops-team/okf": {
+    "key": "superops-team/okf",
+    "stars": 37,
+    "description": "Open Knowledge Format - AI Agent project-level knowledge base",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324301.0840268,
+    "source": "github"
+  },
+  "langchain-ai/openwiki": {
+    "key": "langchain-ai/openwiki",
+    "stars": 17858,
+    "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324301.6999526,
+    "source": "github"
+  },
+  "upstash/context7": {
+    "key": "upstash/context7",
+    "stars": 64464,
+    "description": "Context7 Platform -- Up-to-date docs for AI agents",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324302.1709158,
+    "source": "github"
+  },
+  "nvidia/skills": {
+    "key": "nvidia/skills",
+    "stars": 3921,
+    "description": "Agent Skills for NVIDIA products \u2014 install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324302.8145738,
+    "source": "github"
+  },
+  "datahub-project/datahub-skills": {
+    "key": "datahub-project/datahub-skills",
+    "stars": 46,
+    "description": "LLM Agent skills for working with DataHub, search, enrich, quality, build connectors, ...",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324303.3189366,
+    "source": "github"
+  },
+  "rtk-ai/rtk": {
+    "key": "rtk-ai/rtk",
+    "stars": 86078,
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324303.8565812,
+    "source": "github"
+  },
+  "dietrichgebert/ponytail": {
+    "key": "dietrichgebert/ponytail",
+    "stars": 188194,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324304.2993922,
+    "source": "github"
+  },
+  "gglucass/headroom-desktop": {
+    "key": "gglucass/headroom-desktop",
+    "stars": 640,
+    "description": "Menu bar app for macOS, Windows and Linux that cuts Claude Code and ChatGPT Codex token costs by ~50%",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324304.7739198,
+    "source": "github"
+  },
+  "JuliusBrussee/caveman": {
+    "key": "JuliusBrussee/caveman",
+    "stars": 118811,
+    "description": "\ud83e\udea8 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324305.2091146,
+    "source": "github"
+  },
+  "langfuse/langfuse": {
+    "key": "langfuse/langfuse",
+    "stars": 37257,
+    "description": "\ud83e\udea2 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324305.80857,
+    "source": "github"
+  },
+  "Arize-ai/phoenix": {
+    "key": "Arize-ai/phoenix",
+    "stars": 12232,
+    "description": "AI Observability & Evaluation",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324306.3103747,
+    "source": "github"
+  },
+  "AgentOps-AI/agentops": {
+    "key": "AgentOps-AI/agentops",
+    "stars": 5954,
+    "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794324306.9616446,
+    "source": "github"
   }
 }
