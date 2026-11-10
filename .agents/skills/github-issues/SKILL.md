@@ -16,7 +16,7 @@ Use the `gh` CLI. Check open issues before creating to avoid duplicates:
 - Labels (apply when it fits; plain to-dos may stay unlabeled):
   bug → `bug`, feature → `enhancement`, docs → `documentation`, lessons/postmortems → `lessons`.
   Add later: `gh issue edit 21 --add-label lessons`
-- Reference the issue in commits as `(#N)`. Do NOT use `Closes`/`Fixes` keywords — they auto-close the issue on merge.
+- Commit messages (written by the user) reference the issue as `(#N)`. Suggest messages that way; do NOT use `Closes`/`Fixes` keywords — they auto-close the issue on merge.
 
 ## Issue templates
 
@@ -31,6 +31,7 @@ Use the `gh` CLI. Check open issues before creating to avoid duplicates:
 
 ## Delivery and closing
 
-- NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere). Work is delivered via a merge request: work on the current branch if it is not `main` (do not create a new branch per ticket), then open `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` and stop. The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you.
-- Batching: multiple tickets (e.g. a set of `newtech` items) are handled on the same branch — one commit per ticket, one PR per batch referencing all issues (`Work for #85, #86`).
+- NEVER stage (`git add`), commit, or push — leave all git mutations to the user so they can review work before it is committed. Work happens on the current branch if it is not `main` (do not create a new branch per ticket). When work is ready, hand off with a suggested commit message and the PR command for the user: `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` — then stop.
+- The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you. NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere).
+- Batching: multiple tickets (e.g. a set of `newtech` items) are handled on the same branch — the user commits one commit per ticket; one PR per batch references all issues (`Work for #85, #86`).
 - Rejections: label `wontfix`, `duplicate`, or `invalid` and comment why; closing is left to the owner.

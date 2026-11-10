@@ -86,7 +86,7 @@ Items without `repo` render without stars/forks.
 
 ## Cache
 
-- `.landscape-cache.json` — GitHub API responses cached for 24h (tracked in git; updated by `validate`/`refresh`, commit it with your changes)
+- `.landscape-cache.json` — GitHub API responses cached for 24h (tracked in git; updated by `validate`/`refresh`)
 - `landscape html --force` or `uv run landscape refresh` bypasses cache
 
 ## Testing
