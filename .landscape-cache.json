@@ -1,0 +1,461 @@
+{
+  "Fission-AI/OpenSpec": {
+    "key": "Fission-AI/OpenSpec",
+    "stars": 74517,
+    "description": "Spec-driven development (SDD) for AI coding assistants.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321143.122723,
+    "source": "github"
+  },
+  "github/spec-kit": {
+    "key": "github/spec-kit",
+    "stars": 149141,
+    "description": "\ud83d\udcab Toolkit to help you get started with SDD or any other process!",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321143.4347875,
+    "source": "github"
+  },
+  "bmad-code-org/bmad-method": {
+    "key": "bmad-code-org/bmad-method",
+    "stars": 55213,
+    "description": "Breakthrough Method for Agile Ai Driven Development",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321143.7733126,
+    "source": "github"
+  },
+  "spec-kitty/spec-kitty": {
+    "key": "spec-kitty/spec-kitty",
+    "stars": 1719,
+    "description": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321144.1108546,
+    "source": "github"
+  },
+  "specula-org/Specula": {
+    "key": "specula-org/Specula",
+    "stars": 643,
+    "description": "Specula: An agentic tool for finding deep bugs in system code using TLA+",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321144.3916225,
+    "source": "github"
+  },
+  "open-gsd/gsd-core": {
+    "key": "open-gsd/gsd-core",
+    "stars": 11410,
+    "description": "Git. Ship. Done - Core",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321144.6934094,
+    "source": "github"
+  },
+  "earendil-works/pi": {
+    "key": "earendil-works/pi",
+    "stars": 121207,
+    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321145.0332253,
+    "source": "github"
+  },
+  "anomalyco/opencode": {
+    "key": "anomalyco/opencode",
+    "stars": 225821,
+    "description": "The open source coding agent.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321145.3212025,
+    "source": "github"
+  },
+  "Nano-Collective/nanocoder": {
+    "key": "Nano-Collective/nanocoder",
+    "stars": 2560,
+    "description": "An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, keep your code on your machine, and owe nothing to anyone.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321145.6428998,
+    "source": "github"
+  },
+  "qwenLM/qwen-code": {
+    "key": "qwenLM/qwen-code",
+    "stars": 29162,
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321145.935156,
+    "source": "github"
+  },
+  "deepseek-ai/deepseek-harness": {
+    "key": "deepseek-ai/deepseek-harness",
+    "stars": 278011,
+    "description": "DeepSeek Harness: Everything is a Plugin.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321146.2702954,
+    "source": "github"
+  },
+  "1jehuang/jcode": {
+    "key": "1jehuang/jcode",
+    "stars": 21671,
+    "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321146.6753771,
+    "source": "github"
+  },
+  "codehamr/codehamr": {
+    "key": "codehamr/codehamr",
+    "stars": 224,
+    "description": "A minimal, local-first coding agent for the terminal.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321147.218746,
+    "source": "github"
+  },
+  "AtomicBot-ai/atomic-agent": {
+    "key": "AtomicBot-ai/atomic-agent",
+    "stars": 3440,
+    "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321147.5715148,
+    "source": "github"
+  },
+  "volcengine/OpenViking": {
+    "key": "volcengine/OpenViking",
+    "stars": 41938,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321147.9659026,
+    "source": "github"
+  },
+  "FeatureFactory-io/mimir": {
+    "key": "FeatureFactory-io/mimir",
+    "stars": 16,
+    "description": "Mimir is a foundation for self-evolving methodologies for well-defined tasks - it provides a framework to capture your methodology as a Playbook, enable its consumption via MCP, and enable AI-driven evolution as inspired by genetic algorithms.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321148.2941244,
+    "source": "github"
+  },
+  "tractorjuice/arc-kit": {
+    "key": "tractorjuice/arc-kit",
+    "stars": 2276,
+    "description": "The Enterprise Architecture Governance Harness \u2014 strategy, architecture, delivery, and assurance using AI coding assistants",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321148.6321063,
+    "source": "github"
+  },
+  "hivementality-ai/hivemind": {
+    "key": "hivementality-ai/hivemind",
+    "stars": 90,
+    "description": "Hivemind \u2014 Multi-agent AI team platform",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321148.9225628,
+    "source": "github"
+  },
+  "OpenHands/OpenHands": {
+    "key": "OpenHands/OpenHands",
+    "stars": 93120,
+    "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321149.2689552,
+    "source": "github"
+  },
+  "openai/symphony": {
+    "key": "openai/symphony",
+    "stars": 27999,
+    "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321149.5719795,
+    "source": "github"
+  },
+  "microsoft/conductor": {
+    "key": "microsoft/conductor",
+    "stars": 497,
+    "description": "A CLI tool for defining and running multi-agent workflows with the GitHub Copilot SDK and Anthropic Agents SDK.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321149.925108,
+    "source": "github"
+  },
+  "opensquilla/opensquilla": {
+    "key": "opensquilla/opensquilla",
+    "stars": 7125,
+    "description": "OpenSquilla \u2014 Token-Efficient AI Agent with same budget, higher intelligence density",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321150.4805932,
+    "source": "github"
+  },
+  "fabro-sh/fabro": {
+    "key": "fabro-sh/fabro",
+    "stars": 1834,
+    "description": "\u2692\ufe0f The open source dark software factory for expert engineers.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321150.8007119,
+    "source": "github"
+  },
+  "huggingface/smolagents": {
+    "key": "huggingface/smolagents",
+    "stars": 30300,
+    "description": "\ud83e\udd17 smolagents: a barebones library for agents that think in code.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321151.1063852,
+    "source": "github"
+  },
+  "aden-hive/hive": {
+    "key": "aden-hive/hive",
+    "stars": 11149,
+    "description": "Multi-Agent Harness for Production AI",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321151.4566364,
+    "source": "github"
+  },
+  "sipyourdrink-ltd/bernstein": {
+    "key": "sipyourdrink-ltd/bernstein",
+    "stars": 1200,
+    "description": "The open-source governance layer for AI agents: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record. Free, Apache-2.0. https://bernstein.run",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321151.8892858,
+    "source": "github"
+  },
+  "pingdotgg/t3code": {
+    "key": "pingdotgg/t3code",
+    "stars": 55183,
+    "description": "",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321152.2060173,
+    "source": "github"
+  },
+  "GoogleCloudPlatform/scion": {
+    "key": "GoogleCloudPlatform/scion",
+    "stars": 2106,
+    "description": "",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321152.4784439,
+    "source": "github"
+  },
+  "awslabs/aidlc-workflows": {
+    "key": "awslabs/aidlc-workflows",
+    "stars": 5994,
+    "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321152.770477,
+    "source": "github"
+  },
+  "humanlayer/humanlayer": {
+    "key": "humanlayer/humanlayer",
+    "stars": 12849,
+    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321153.057816,
+    "source": "github"
+  },
+  "cocoindex-io/cocoindex": {
+    "key": "cocoindex-io/cocoindex",
+    "stars": 11871,
+    "description": "Incremental engine for long horizon agents \ud83c\udf1f Star if you like it!",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321153.3236575,
+    "source": "github"
+  },
+  "CodeGraphContext/CodeGraphContext": {
+    "key": "CodeGraphContext/CodeGraphContext",
+    "stars": 4407,
+    "description": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321153.6505911,
+    "source": "github"
+  },
+  "ast-grep/ast-grep": {
+    "key": "ast-grep/ast-grep",
+    "stars": 16530,
+    "description": "\u26a1A CLI tool for code structural search, lint and rewriting. Written in Rust",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321153.9905362,
+    "source": "github"
+  },
+  "redhat-et/ripwire": {
+    "key": "redhat-et/ripwire",
+    "stars": 2536,
+    "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant \u2014 blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321154.2771525,
+    "source": "github"
+  },
+  "Graphify-Labs/graphify": {
+    "key": "Graphify-Labs/graphify",
+    "stars": 145406,
+    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321154.625041,
+    "source": "github"
+  },
+  "Egonex-AI/Understand-Anything": {
+    "key": "Egonex-AI/Understand-Anything",
+    "stars": 91837,
+    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321154.8744283,
+    "source": "github"
+  },
+  "deeplethe/forkd": {
+    "key": "deeplethe/forkd",
+    "stars": 6029,
+    "description": "Run thousands of AI agent sandboxes on the cheapest machines.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321155.4135647,
+    "source": "github"
+  },
+  "opensandbox-group/OpenSandbox": {
+    "key": "opensandbox-group/OpenSandbox",
+    "stars": 17096,
+    "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321155.683967,
+    "source": "github"
+  },
+  "daytonaio/daytona": {
+    "key": "daytonaio/daytona",
+    "stars": 71337,
+    "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321156.000186,
+    "source": "github"
+  },
+  "e2b-dev/e2b": {
+    "key": "e2b-dev/e2b",
+    "stars": 14796,
+    "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321156.2891865,
+    "source": "github"
+  },
+  "herdrdev/herdr": {
+    "key": "herdrdev/herdr",
+    "stars": 49911,
+    "description": "the runtime your coding agents live on",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321156.5860236,
+    "source": "github"
+  },
+  "agent-ecosystem/skill-validator": {
+    "key": "agent-ecosystem/skill-validator",
+    "stars": 265,
+    "description": "Validate Skill content against Agent Skill specification, with additional content density and quality checks.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321156.8767734,
+    "source": "github"
+  },
+  "wgu-opensource/osmt": {
+    "key": "wgu-opensource/osmt",
+    "stars": 67,
+    "description": "OSMT is the Open Skills Management Tool",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321157.4269428,
+    "source": "github"
+  },
+  "iflytek/skillhub": {
+    "key": "iflytek/skillhub",
+    "stars": 5388,
+    "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321157.7356503,
+    "source": "github"
+  },
+  "vercel-labs/skills": {
+    "key": "vercel-labs/skills",
+    "stars": 38829,
+    "description": "The open agent skills tool - npx skills",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321158.012465,
+    "source": "github"
+  },
+  "microsoft/apm": {
+    "key": "microsoft/apm",
+    "stars": 4321,
+    "description": "Agent Package Manager",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321158.258571,
+    "source": "github"
+  },
+  "cisco-ai-defense/defenseclaw": {
+    "key": "cisco-ai-defense/defenseclaw",
+    "stars": 912,
+    "description": "Security Governance for Agentic AI",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321158.542859,
+    "source": "github"
+  },
+  "nvidia/skillspector": {
+    "key": "nvidia/skillspector",
+    "stars": 25168,
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321158.9349484,
+    "source": "github"
+  },
+  "inkeep/open-knowledge": {
+    "key": "inkeep/open-knowledge",
+    "stars": 4829,
+    "description": "Beautiful, AI-native markdown IDE and LLM wiki",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321159.2374206,
+    "source": "github"
+  },
+  "zosmaai/pi-llm-wiki": {
+    "key": "zosmaai/pi-llm-wiki",
+    "stars": 627,
+    "description": "Self-maintaining, Obsidian-compatible knowledge base for pi \u2014 turn raw sources into an interlinked wiki that compounds. Native Open Knowledge Format (OKF) v0.2.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321159.5136616,
+    "source": "github"
+  },
+  "mattdav/okflint": {
+    "key": "mattdav/okflint",
+    "stars": 10,
+    "description": "",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794321159.8306792,
+    "source": "github"
+  }
+}
