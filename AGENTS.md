@@ -44,6 +44,8 @@ Use `rg` instead of `grep` for searching faster between files.
 | Type-check | `uv run mypy` |
 | Lint | `uv run ruff check` |
 
+Set `GITHUB_TOKEN` before `validate`/`refresh` (e.g. `export GITHUB_TOKEN=$(gh auth token)`) — unauthenticated GitHub API calls are limited to 60 requests/hour, authenticated get 5,000/hour.
+
 ## Project Structure
 
 ```
@@ -84,7 +86,7 @@ Items without `repo` render without stars/forks.
 
 ## Cache
 
-- `.landscape-cache.json` — GitHub API responses cached for 24h
+- `.landscape-cache.json` — GitHub API responses cached for 24h (tracked in git; updated by `validate`/`refresh`, commit it with your changes)
 - `landscape html --force` or `uv run landscape refresh` bypasses cache
 
 ## Testing
@@ -126,8 +128,8 @@ uv run ruff check --fix            # auto-fix
 
 ## Common Gotchas
 
-- **Must run from `landscape/` directory** — paths in Makefile/cli.py are relative to it
-- **GitHub API rate limits** — cache helps; use `--force` / `make refresh` to bypass
+- **Must run from the repository root** — paths in Makefile/cli.py are relative to it
+- **GitHub API rate limits** — set `GITHUB_TOKEN` (60 req/h unauthenticated vs 5,000/h authenticated); the 24h cache helps for repeat runs; use `--force` / `make refresh` to bypass the cache
 - **Favicons** downloaded to `assets/icons/` (auto-created)
 - **Output dir** `landscape/` is created on first run
 - **mypy strict mode** — type annotations required
@@ -149,6 +151,7 @@ Use `gh` CLI. Check open issues before creating to avoid duplicates:
 - Read an issue: `gh issue view 21`
 - Note progress in a comment: `gh issue comment 21 --body "Applied 165W cap, results pending"`
 - Reference the issue in commits as `(#N)`. Do NOT use `Closes`/`Fixes` keywords — they auto-close the issue on merge.
-- NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere). Work is delivered via a merge request: commit to a feature branch, then open `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` and stop. The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you.
+- NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere). Work is delivered via a merge request: work on the current branch if it is not `main` (do not create a new branch per ticket), then open `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` and stop. The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you.
+- Batching: multiple `newtech` tickets are handled on the same branch — one commit per ticket, one PR per batch referencing all issues (`Work for #85, #86`).
 - Rejections: label `wontfix`, `duplicate`, or `invalid` and comment why; closing is left to the owner.
 - Plan changed mid-work? Update the body: `gh issue edit 21 --body "$(cat updated-plan.md)"`
