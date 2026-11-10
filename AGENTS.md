@@ -8,6 +8,30 @@ uv sync
 uv run landscape html
 ```
 
+## Using Python
+
+For any python related script or tool you can use only `uv`
+
+Examples for executing packages:
+
+```bash
+uvx --with <LIBRARY_NAME> <PACKAGE_NAME> <PARAMETERS>
+```
+
+Examples for running a python script:
+
+```bash
+uv run /tmp/opencode/<SCRIPT_NAME>
+```
+
+```bash
+uv run --with python-pptx <SCRIPT_NAME>
+```
+
+## Searching within documents
+
+Use `rg` instead of `grep` for searching faster between files.
+
 ## Commands
 
 | Task | Command |
