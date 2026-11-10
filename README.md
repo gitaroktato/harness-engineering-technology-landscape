@@ -1,10 +1,17 @@
 # Technology Landscape
 
-The project includes an automated tool to generate a HTML diagram from structured YAML configuration. The landscape visualizes the technology stack with GitHub repo stats (stars, descriptions) and is rendered as swimlane diagrams.
+A living map of the tooling we're keeping an eye on for AI-assisted and spec-driven engineering — coding assistants, orchestration, sandboxes, skills, knowledge bases, token control, observability, and more.
+
+Everything is driven by a single YAML file (`config/landscape.yaml`). When you run the generator it fetches live data from the GitHub API (star counts, descriptions, favicons) and renders the landscape two ways:
+
+- **`technology-landscape.html`** — a self-contained page you can open in any browser or share as-is
+- **`technology-landscape.md`** — a Markdown mirror of the same content
+
+So updating the landscape is just: edit the YAML, regenerate. That's it.
 
 ## Prerequisites
 
-- Python 3.12+ with [uv](https://github.com/astral-sh/uv) installed
+- Python 3.11+ with [uv](https://github.com/astral-sh/uv) installed
 
 ## Setup
 
@@ -12,41 +19,41 @@ The project includes an automated tool to generate a HTML diagram from structure
 uv sync
 ```
 
-## Build the Landscape
+## Generate the Landscape
 
 ```bash
-make landscape
+make html
 ```
 
-This reads `config/landscape.yaml`, enriches data from GitHub API, downloads favicons, and outputs `landscape/technology-landscape.drawio`.
+This reads `config/landscape.yaml`, enriches each entry from the GitHub API, downloads favicons into `assets/icons/`, and writes out `technology-landscape.html`. Run `make markdown` too if you want the Markdown version.
 
 ## Commands
 
-| Command | Description |
+| Command | What it does |
 | --------- | ------------- |
-| `make landscape` | Generate the landscape diagram |
-| `make init` | Convert existing markdown to YAML config |
-| `make validate` | Validate config (with GitHub API checks) |
-| `make refresh` | Force-refresh GitHub cache and regenerate |
-| `make cache-info` | Show cache status |
+| `make html` | Generate the landscape as a self-contained HTML page |
+| `make markdown` | Generate the Markdown mirror (`technology-landscape.md`) |
+| `make validate` | Check the config, including whether each GitHub repo still exists |
+| `make refresh` | Force-refresh the GitHub cache and regenerate |
+| `make cache-info` | Show what's in the cache right now |
 
-Or run directly with `uv run landscape <command>`.
+You can also run any of these directly with `uv run landscape <command>`.
 
 ## Configuration
 
-Edit `config/landscape.yaml` to add, remove, or modify technology items. Each item supports:
+Edit `config/landscape.yaml` to add, remove, or tweak entries. Each item supports:
 
 ```yaml
 categories:
   - name: SDD
     items:
       - name: OpenSpec
-        repo: Fission-AI/OpenSpec      # GitHub owner/repo for API lookup
-        optional: false                 # Skip rendering on validation failure if true
+        repo: Fission-AI/OpenSpec      # GitHub owner/repo — used for the API lookup
+        optional: false                # set true to skip rendering if validation fails
 ```
 
-Items without a `repo` field are rendered without GitHub data (favicons from URL, no star counts).
+Items without a `repo` field still render, they just don't get star counts or a favicon pulled from GitHub (you can point them at a `url` instead).
 
 ## Cache
 
-GitHub API responses are cached in `.landscape-cache.json` with 24h TTL. Use `make refresh` to bypass the cache.
+GitHub API responses are cached in `.landscape-cache.json` for 24 hours so you're not hammering the API on every run. Use `make refresh` to bypass it.
