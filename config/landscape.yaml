@@ -66,6 +66,11 @@ categories:
             repo: 1jehuang/jcode
             favicon: https://jcode.sh/favicon.ico
             description: "The most RAM efficient harness"
+          - name: "open-code-review"
+            url: https://open-codereview.ai
+            repo: alibaba/open-code-review
+            favicon: https://open-codereview.ai/dbd8996c7419925db8e3.svg
+            description: "Hybrid-architecture code review tool combining deterministic pipelines with an LLM agent for precise line-level comments and built-in multi-language rulesets"
       - name: "Local-First"
         items:
           - name: "Codehamr"
