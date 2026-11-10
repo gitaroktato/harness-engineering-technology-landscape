@@ -27,6 +27,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Qwen Code](https://qwen.ai/qwencode) - An open-source AI agent for the terminal, optimized for Qwen series models
 - [DeepSeek Harness](https://deepseek.com/harness/en/) - Open-source agent harness developed by DeepSeek AI
 - [jcode](https://jcode.sh/) - The most RAM efficient harness
+- [open-code-review](https://open-codereview.ai) - Hybrid-architecture code review tool combining deterministic pipelines with an LLM agent for precise line-level comments and built-in multi-language rulesets
 
 ### Local-First
 
@@ -73,6 +74,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [OpenSandbox](https://open-sandbox.ai/) - Secure, fast, extensible sandbox runtime for AI agents
 - [Daytona](https://www.daytona.io/) - Elastic infrastructure for running AI-generated code; sub-90ms creation
 - [E2B](https://docs.e2b.dev) - E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools.
+- [Herdr](https://herdr.dev/) - Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed
 
 ## Working with Skills
 
