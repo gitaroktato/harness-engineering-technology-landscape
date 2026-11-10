@@ -134,7 +134,3 @@ uv run ruff check --fix            # auto-fix
 - **Output dir** `landscape/` is created on first run
 - **mypy strict mode** — type annotations required
 - **pytest** runs from repo root with `uv run pytest` (discovers `tests/`)
-
-## GitHub Issues and PRs
-
-See the `github-issues` skill — it owns all conventions for issues, commits referencing issues, PRs, and closing.
