@@ -215,6 +215,11 @@ categories:
         url: https://docs.e2b.dev
         favicon: https://mintcdn.com/e2b/uddn8UjXXXb9b3Jk/logo/light.svg?fit=max&auto=format&n=uddn8UjXXXb9b3Jk&q=85&s=7b91f2676214cde58b1fff770b90936e
         description: "E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools."
+      - name: "Herdr"
+        url: https://herdr.dev/
+        favicon: https://herdr.dev/favicon.ico
+        repo: herdrdev/herdr
+        description: "Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed"
 
   - name: "Working with Skills"
     groups:
