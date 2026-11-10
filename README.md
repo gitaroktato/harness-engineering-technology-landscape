@@ -1,6 +1,6 @@
 # Technology Landscape
 
-The project includes an automated tool to generate a [DrawIO](https://draw.io) diagram from structured YAML configuration. The landscape visualizes the technology stack with GitHub repo stats (stars, descriptions) and is rendered as swimlane diagrams.
+The project includes an automated tool to generate a HTML diagram from structured YAML configuration. The landscape visualizes the technology stack with GitHub repo stats (stars, descriptions) and is rendered as swimlane diagrams.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ This reads `config/landscape.yaml`, enriches data from GitHub API, downloads fav
 ## Commands
 
 | Command | Description |
-|---------|-------------|
+| --------- | ------------- |
 | `make landscape` | Generate the landscape diagram |
 | `make init` | Convert existing markdown to YAML config |
 | `make validate` | Validate config (with GitHub API checks) |
