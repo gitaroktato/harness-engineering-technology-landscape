@@ -1,0 +1,358 @@
+title: "Harness Engineering — Technology Landscape"
+
+categories:
+  - name: "SDD"
+    subtitle: "Spec-Driven Development"
+    items:
+      - name: "OpenSpec"
+        repo: Fission-AI/OpenSpec
+        url: https://openspec.dev/
+        favicon: https://openspec.dev/_astro/openspec_icon_light.BXKVBxjB.svg
+        description: "Spec-driven development for AI coding assistants"
+      - name: "spec-kit"
+        repo: github/spec-kit
+        description: "Toolkit to get started with Spec-Driven Development"
+      - name: "BMAD"
+        repo: bmad-code-org/bmad-method
+        description: "Breakthrough Method for Agile AI Driven Development"
+      - name: "Spec Kitty"
+        repo: spec-kitty/spec-kitty
+        url: https://spec-kitty.ai/
+        favicon: https://spec-kitty.ai/favicon.png?v=2
+        description: "Spec Kitty is an open-source CLI for turning product intent into a repo-native AI coding workflow:"
+      - name: "Specula"
+        repo: specula-org/Specula
+        url: https://specula.info/
+        favicon: https://specula.info/assets/favicon.png
+        description: "Specula: An agentic tool for finding deep bugs in system code using TLA+. It uses coding agents to write TLA+ specs of the target system."
+      - name: "GSD Core"
+        repo: open-gsd/gsd-core
+        url: https://opengsd.net/
+        favicon: https://opengsd.net/icon.png?icon.0ckaue58111-7.png?dpl=dpl_9kDoJ2vWabeGK2oWvjhCSUzzFGT7
+        description: "Context-engineering and spec-driven development framework that drives AI coding agents"
+
+  - name: "Coding Assistants"
+    subtitle: "Coding assistants usable from a terminal"
+    groups:
+      - name: "General Purpose"
+        items:
+          - name: "pi.dev"
+            url: https://pi.dev/
+            repo: earendil-works/pi
+            favicon: https://pi.dev/favicon.svg
+            description: "Minimal agent harness — adapt to your workflow, not vice versa"
+          - name: "OpenCode"
+            url: https://opencode.ai
+            repo: anomalyco/opencode
+            favicon: https://opencode.ai/favicon-96x96-v3.png
+            description: "OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop."
+          - name: "NanoCoder"
+            url: https://docs.nanocollective.org/nanocoder
+            repo: Nano-Collective/nanocoder
+            favicon: https://docs.nanocollective.org/favicon-96x96.png
+            description: "An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, keep your code on your machine, and owe nothing to anyone."
+          - name: "Qwen Code"
+            url: https://qwen.ai/qwencode
+            repo: qwenLM/qwen-code
+            favicon: https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png
+            description: "An open-source AI agent for the terminal, optimized for Qwen series models"
+          - name: "DeepSeek Harness"
+            url: https://deepseek.com/harness/en/
+            repo: deepseek-ai/deepseek-harness
+            favicon: https://deepseek.com/harness/favicon.ico
+            description: "Open-source agent harness developed by DeepSeek AI"
+          - name: "jcode"
+            url: https://jcode.sh/
+            repo: 1jehuang/jcode
+            favicon: https://jcode.sh/favicon.ico
+            description: "The most RAM efficient harness"
+      - name: "Local-First"
+        items:
+          - name: "Codehamr"
+            url: https://codehamr.com
+            repo: codehamr/codehamr
+            favicon: https://codehamr.com/favicon.svg
+            description: "A minimal, local-first coding agent."
+          - name: "Atomic Agent"
+            url: https://atomicagent.io
+            repo: AtomicBot-ai/atomic-agent
+            favicon: https://atomicagent.io/favicon.png
+            description: "A local-first AI agent that runs on your machine, with local or cloud models."
+
+  - name: "SDLC Templates or Template Management"
+    subtitle: "Holding agentic configurations, skills, etc."
+    items:
+      - name: "OpenViking"
+        url: https://openviking.ai/
+        repo: volcengine/OpenViking
+        favicon: https://res.gcloudcache.com/volc-fe/openviking/playground/openviking-logo.png
+        description: "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+      - name: "Mimir"
+        url: https://mimir.featurefactory.io
+        repo: FeatureFactory-io/mimir
+        favicon: https://mimir.featurefactory.io/static/images/mimir-logo.png
+        description: "Mimir is a foundation for self-evolving methodologies for well-defined tasks"
+      - name: "ArcKit"
+        url: https://arckit.org/
+        repo: tractorjuice/arc-kit
+        favicon: https://arckit.org/assets/favicon.svg
+        description: "ArcKit is an enterprise Architecture governance harness that wraps your AI coding assistant"
+      - name: "Hivemind"
+        url: https://hivementality.ai/
+        repo: hivementality-ai/hivemind
+        favicon: https://hivementality.ai/logo.svg
+        description: "Self-hosted multi-agent AI team platform. 40+ built-in tools, 150+ agent templates."
+      - name: "OpenHands"
+        url: https://docs.openhands.dev
+        repo: OpenHands/OpenHands
+        favicon: https://avatars.githubusercontent.com/u/225919603
+        description: "The self-hosted developer control center for coding agents and automations."
+
+
+  - name: "Orchestration"
+    items:
+      - name: "Symphony"
+        repo: openai/symphony
+        favicon: https://openai.com/favicon.ico
+        description: "Isolated autonomous implementation runs for teams"
+      - name: "Conductor"
+        repo: microsoft/conductor
+        description: "Multi-agent workflows with GitHub Copilot SDK"
+      - name: "OpenSquilla"
+        repo: opensquilla/opensquilla
+        description: "Token-efficient AI agent with higher intelligence density"
+      - name: "Fabro"
+        repo: fabro-sh/fabro
+        url: https://docs.fabro.sh/getting-started/introduction
+        favicon: https://fabro.sh/favicon.svg
+        description: "Version-controlled workflow graphs orchestrating AI agents, commands, and human gates"
+      - name: "smolagents"
+        repo: huggingface/smolagents
+        favicon: https://huggingface.co/favicon.ico
+        description: "Barebones library for agents that think in code"
+      - name: "OpenHive"
+        repo: aden-hive/hive
+        description: "Multi-agent harness for production AI workloads"
+      - name: "bernstein"
+        favicon: https://bernstein.run/favicon.svg
+        url: https://bernstein.run/
+        repo: sipyourdrink-ltd/bernstein
+        description: "Audit-grade multi-agent orchestration, HMAC-chained audit log"
+      - name: "T3 Code"
+        favicon: https://t3.codes/favicon.ico
+        url: https://t3.codes/
+        repo: pingdotgg/t3code
+        description: "T3 Code is an agent harness control surface."
+      - name: "Scion"
+        favicon: https://googlecloudplatform.github.io/scion/favicon.svg
+        url: https://googlecloudplatform.github.io/scion/overview/
+        repo: GoogleCloudPlatform/scion
+        description: "Scion is a container-based orchestration platform for running multiple LLM deep agents concurren"
+      - name: "AWS AI-DLC"
+        url: https://awslabs.github.io/aidlc-workflows/
+        favicon: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
+        repo: awslabs/aidlc-workflows
+        description: "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+      - name: "HumanLayer"
+        favicon: https://docs.humanlayer.com/favicon.ico
+        url: https://docs.humanlayer.com/
+        repo: humanlayer/humanlayer
+        description: "HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host."
+
+  - name: "AST and Code Parsers"
+    items:
+      - name: "CocoIndex Code"
+        repo: cocoindex-io/cocoindex
+        url: https://cocoindex.io/cocoindex-code/
+        favicon: https://cocoindex.io/favicon.svg
+        description: "AST-based lightweight code search engine CLI; saves 70% tokens"
+      - name: "CodeGraphContext"
+        repo: CodeGraphContext/CodeGraphContext
+        favicon: https://cgc.codes/cgcIcon.png
+        url: https://cgc.codes/
+        description: "MCP server indexing local code into a graph database"
+      - name: "ast-grep"
+        repo: ast-grep/ast-grep
+        url: https://ast-grep.github.io/
+        favicon: https://ast-grep.github.io/favicon.ico
+        description: "CLI tool for code structural search, lint and rewriting in Rust"
+      - name: "ripwire"
+        repo: redhat-et/ripwire
+        favicon: https://avatars.githubusercontent.com/u/66332970?s=60&v=4
+        description: "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents."
+      - name: "Graphify"
+        url: https://graphify.com/
+        repo: Graphify-Labs/graphify
+        favicon: https://graphify.com/favicon.ico?favicon.3fnvbih2wf4-_.ico
+        description: "Turn code and docs into queryable AI knowledge graphs"
+      - name: "Understand Anything"
+        url: https://understand-anything.com/
+        repo: Egonex-AI/Understand-Anything
+        favicon: https://understand-anything.com/favicon.png
+        description: "Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about."
+
+  - name: "Sandboxes"
+    items:
+      - name: "NVIDIA OpenShell"
+        url: https://docs.nvidia.com/openshell/about/overview
+        favicon: https://www.nvidia.com/favicon.ico
+        description: "Sandboxed agent runtime with hardware-enforced isolation and policy"
+      - name: "forkd"
+        repo: deeplethe/forkd
+        description: "fork() for AI agent microVMs; spawn 100 children in ~100ms"
+      - name: "OpenSandbox"
+        url: https://open-sandbox.ai/
+        favicon: https://open-sandbox.ai/favicon.svg
+        repo: opensandbox-group/OpenSandbox
+        description: "Secure, fast, extensible sandbox runtime for AI agents"
+      - name: "Daytona"
+        repo: daytonaio/daytona
+        url: https://www.daytona.io/
+        favicon: https://www.daytona.io/favicon.ico
+        description: "Elastic infrastructure for running AI-generated code; sub-90ms creation"
+      - name: "E2B"
+        repo: e2b-dev/e2b
+        url: https://docs.e2b.dev
+        favicon: https://mintcdn.com/e2b/uddn8UjXXXb9b3Jk/logo/light.svg?fit=max&auto=format&n=uddn8UjXXXb9b3Jk&q=85&s=7b91f2676214cde58b1fff770b90936e
+        description: "E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools."
+
+  - name: "Working with Skills"
+    groups:
+      - name: "Skill Reference"
+        items:
+          - name: "Agent Skills"
+            url: https://agentskills.io/home
+            favicon: https://agentskills.io/favicon.ico
+            description: "Standardized open format for extending AI agent capabilities via SKILL.md files"
+      - name: "Skill Syntax Validation"
+        items:
+          - name: "skill-validator"
+            repo: agent-ecosystem/skill-validator
+            description: "Validates skill content against the Agent Skill specification"
+      - name: "Skill Repositories"
+        items:
+          - name: "OSMT"
+            repo: wgu-opensource/osmt
+            favicon: https://osmt.io/assets/images/osmt-logo-symbol.svg
+            description: "OSMT is the Open Skills Management Tool"
+          - name: "SkillHub"
+            repo: iflytek/skillhub
+            favicon: https://github.com/iflytek/skillhub/raw/main/skillhub-logo.svg
+            description: "Self-hosted, open-source agent skill registry for enterprises."
+      - name: "Skill Dependency Management"
+        items:
+          - name: "skills (Vercel Labs)"
+            repo: vercel-labs/skills
+            favicon: https://vercel.com/favicon.ico
+            description: "Open agent skills CLI; supports OpenCode, Claude Code, Codex, Cursor and 68+ more"
+          - name: "Microsoft APM (Agent Package Manager"
+            repo: microsoft/apm
+            url: https://microsoft.github.io/apm/
+            description: "An open-source, community-driven dependency manager for AI agents."
+      - name: "Skill Security Scanners"
+        items:
+          - name: "DefenseClaw"
+            repo: cisco-ai-defense/defenseclaw
+            description: "Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence"
+          - name: "SkillSpector"
+            repo: nvidia/skillspector
+            favicon: https://www.nvidia.com/favicon.ico
+            description: "Security scanner for AI agent skills; detects vulnerabilities before installation"
+
+  - name: "Knowledge Base"
+    groups:
+      - name: "LLM Wikis"
+        items:
+          - name: "OpenKnowledge"
+            url: https://openknowledge.ai/
+            repo: inkeep/open-knowledge
+            favicon: https://openknowledge.ai/marketing-assets/ok-logo.png
+            description: "Beautiful, AI-native markdown IDE and LLM wiki"
+          - name: "pi-llm-wiki"
+            url: https://zosmaai.github.io/pi-llm-wiki/
+            repo: zosmaai/pi-llm-wiki
+            description: "Self-maintaining, Obsidian-compatible knowledge base for pi"
+      - name: "Open Knowledge Format (OKF)"
+        items:
+          - name: "OKF Ecosystem"
+            url: https://okf.md/tools/
+            favicon: https://okf.md/favicon.svg
+            description: "Open Knowledge Format ecosystem; tools, spec and docs for AI agent knowledge bases"
+          - name: "okflint"
+            repo: mattdav/okflint
+            description: "Deterministic compliance linter for OKF bundles; profile-based rule enforcement"
+          - name: "okf CLI"
+            repo: superops-team/okf
+            description: "CLI for git-based OKF knowledge bases; keeps bundles fresh via git hooks"
+          - name: "OpenWiki"
+            repo: langchain-ai/openwiki
+            description: "OpenWiki is a CLI that writes and maintains agent documentation for your codebase in OKF compatible format."
+            url: https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation
+            favicon: https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4a429d54e956e2a763_favicon.png
+      - name: "Technology Specifics"
+        items:
+          - name: "Context7"
+            repo: upstash/context7
+            url: https://context7.com/
+            favicon: https://context7.com/favicon.ico
+            description: "Up-to-date documentation for LLMs and AI code editors"
+          - name: "LangChain docs MCP + skills"
+            url: https://docs.langchain.com/use-these-docs
+            favicon: https://docs.langchain.com/mintlify-assets/_mintlify/favicons/langchain-5e9cc07a/YSQua9Gt91yRswvJ/_generated/favicon/android-chrome-192x192.png
+            description: "Use LangChain Docs Programmatically with MCP and installed skills"
+          - name: "NVIDIA Agent Skills"
+            repo: nvidia/skills
+            favicon: https://www.nvidia.com/favicon.ico
+            description: "Official NVIDIA-verified skills catalog for CUDA-X, AI Blueprints and platform tools"
+          - name: "DataHub Skills"
+            repo: datahub-project/datahub-skills
+            url: https://datahub.com/blog/datahub-open-source-skills-registry/
+            favicon: https://datahub.com/wp-content/uploads/2026/01/dataHub_symbol_color.svg
+            description: "Agent skills for working with DataHub"
+
+  - name: "Token Control"
+    items:
+      - name: "rtk"
+        repo: rtk-ai/rtk
+        url: https://www.rtk-ai.app/
+        favicon: https://www.rtk-ai.app/brand/favicon/favicon-32.png
+        description: "CLI proxy reduces LLM token consumption by 60-90% on common dev commands; single Rust binary"
+      - name: "ponytail"
+        url: https://ponytail.dev/
+        favicon: https://ponytail.dev/assets/logo-dark.png
+        repo: dietrichgebert/ponytail
+        description: "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+      - name: "Headroom Desktop"
+        url: https://extraheadroom.com/
+        favicon: https://extraheadroom.com/headroom-logo.svg
+        repo: gglucass/headroom-desktop
+        description: "MacOS menu bar app cuts Claude Code and Codex token costs by ~50%"
+      - name: "Caveman"
+        url: https://docs.caveman.so/
+        favicon: https://docs.caveman.so/favicon.svg
+        repo: JuliusBrussee/caveman
+        description: "An efficiency stack for AI agents - cuts 65% of tokens by talking like caveman"
+
+  - name: "Observability"
+    items:
+      - name: "Langfuse"
+        repo: langfuse/langfuse
+        url: https://langfuse.com/integrations/native/opentelemetry
+        favicon: https://langfuse.com/favicon.ico
+        description: "Open source AI observability platform; LLM evals, metrics, tracing, prompt management"
+      - name: "Phoenix"
+        repo: Arize-ai/phoenix
+        url: https://arize.com/docs/phoenix/
+        favicon: https://arize.com/favicon.ico
+        description: "AI observability and evaluation by Arize; traces, evals, datasets"
+      - name: "Claude Code - OTEL"
+        url: https://code.claude.com/docs/en/monitoring-usage
+        favicon: https://code.claude.com/docs/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png
+        description: "How to enable and configure OpenTelemetry for Claude Code."
+      - name: "SigNoz - Coding agent observability"
+        url: https://signoz.io/blog/claude-code-monitoring-with-opentelemetry/
+        favicon: https://signoz.io/static/favicons/apple-touch-icon.png
+        description: "ClaudeCode observability with SigNoz and OpenTelemetry"
+      - name: "agentops"
+        repo: AgentOps-AI/agentops
+        description: "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking"

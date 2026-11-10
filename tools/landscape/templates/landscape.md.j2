@@ -1,0 +1,58 @@
+# Harness Engineering - Technology Landscape
+
+Harness engineering is the discipline of designing the environments, constraints, and feedback loops around AI coding agents that make them reliable at scale. The formula is: `Agent = Model + Harness`. Harness is everything that isn't the model: the infrastructure that governs how the agent operates, what it can access, and how it self-corrects.
+
+In this article I'm collecting all the technologies I stumbled upon while researching harness engineering. The list is not exhaustive, but it should give you a good starting point to explore the landscape. This aims to be a living document, so I'll keep it updated.
+{% for cat in categories %}
+{% if cat.all_items %}
+
+## {{ cat.name }}
+{% if cat.subtitle %}
+
+### {{ cat.subtitle }}
+{% endif %}
+{% if not cat.has_groups %}
+
+{% for item in cat.items %}
+{% set link = item_link(item) %}
+{% if link %}- [{{ item.name }}]({{ link }}){% else %}- {{ item.name }}{% endif %}{% if item.description %} - {{ item.description }}{% endif %}
+
+{% endfor %}
+{% else %}
+{% for group in cat.groups %}
+
+### {{ group.name }}
+
+{% for item in group.items %}
+{% set link = item_link(item) %}
+{% if link %}- [{{ item.name }}]({{ link }}){% else %}- {{ item.name }}{% endif %}{% if item.description %} - {{ item.description }}{% endif %}
+
+{% endfor %}
+{% endfor %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+## References
+
+### Thoughtworks
+
+- <https://martinfowler.com/articles/harness-engineering.html>
+- <https://martinfowler.com/articles/exploring-gen-ai.html>
+- <https://martinfowler.com/bliki/FutureOfSoftwareDevelopment.html>
+
+### Whitepapers from Google
+
+- <https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding>
+- <https://www.kaggle.com/whitepaper-agent-skills>
+- <https://www.kaggle.com/whitepaper-vibe-coding-agent-security-and-evaluation>
+- <https://www.kaggle.com/whitepaper-spec-driven-production-grade-development-in-the-age-of-vibe-coding>
+- <https://www.kaggle.com/whitepaper-agent-tools-and-interoperability>
+- <https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory>
+
+### Various
+
+- <https://github.com/ai-boost/awesome-harness-engineering>
+- [Introducing the Open Knowledge Format (Google Cloud Blog)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
+- [How to Build Karpathy's LLM Wiki (Starmorph)](https://blog.starmorph.com/blog/karpathy-llm-wiki-knowledge-base-guide)
+- [LLM Wiki (Karpathy Gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)

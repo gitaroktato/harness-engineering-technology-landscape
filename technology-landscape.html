@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harness Engineering — Technology Landscape</title>
+  <style>
+    /* ── Base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      padding: 24px;
+      line-height: 1.4;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #cdd6f4;
+      margin-bottom: 28px;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Category section ─────────────────────────────────────────── */
+    .category {
+      margin-bottom: 18px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid;
+    }
+
+    .category-header {
+      padding: 8px 14px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* ── Flat layout: single row of cards ────────────────────────── */
+    .items-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    /* ── Grouped layout: row of sub-group columns ─────────────────── */
+    .groups-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px;
+      align-items: flex-start;
+    }
+
+    .subgroup {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .subgroup-header {
+      font-weight: 700;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-align: center;
+      border: 1px solid;
+    }
+
+    /* ── Card ─────────────────────────────────────────────────────── */
+    .card {
+      background: #3e3e4e;
+      border-radius: 6px;
+      border: 1px solid;
+      padding: 8px 10px;
+      width: 220px;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      word-break: break-word;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .card-title a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .card-title img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+
+    .card-repo {
+      font-size: 11px;
+      color: #a6adc8;
+    }
+
+    .card-desc {
+      font-size: 11px;
+      color: #bac2de;
+      flex-grow: 1;
+    }
+
+    .card-stars {
+      font-weight: bold;
+      font-size: 11px;
+      color: #ffbf00;
+      margin-top: auto;
+    }
+
+    .card-warning {
+      font-size: 9px;
+      color: #999;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Harness Engineering — Technology Landscape</h1>
+
+  
+  
+  <section class="category" style="border-color: #6c8ebf;">
+    <div class="category-header" style="background: #dae8fc; border-bottom: 1px solid #6c8ebf; color: #1e1e2e;">
+      SDD &mdash; Spec-Driven Development
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://openspec.dev/_astro/openspec_icon_light.BXKVBxjB.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://openspec.dev/" target="_blank" rel="noopener noreferrer">OpenSpec</a>
+        </div>
+        <div class="card-repo">Fission-AI/OpenSpec</div>
+        <div class="card-desc">Spec-driven development for AI coding assistants</div>
+        
+        <div class="card-stars">&#9733; 74.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer">spec-kit</a>
+        </div>
+        <div class="card-repo">github/spec-kit</div>
+        <div class="card-desc">Toolkit to get started with Spec-Driven Development</div>
+        
+        <div class="card-stars">&#9733; 148.0k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/bmad-code-org/bmad-method" target="_blank" rel="noopener noreferrer">BMAD</a>
+        </div>
+        <div class="card-repo">bmad-code-org/bmad-method</div>
+        <div class="card-desc">Breakthrough Method for Agile AI Driven Development</div>
+        
+        <div class="card-stars">&#9733; 55.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://spec-kitty.ai/favicon.png?v=2" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://spec-kitty.ai/" target="_blank" rel="noopener noreferrer">Spec Kitty</a>
+        </div>
+        <div class="card-repo">spec-kitty/spec-kitty</div>
+        <div class="card-desc">Spec Kitty is an open-source CLI for turning product intent into a repo-native AI coding workflow:</div>
+        
+        <div class="card-stars">&#9733; 1.7k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://specula.info/assets/favicon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://specula.info/" target="_blank" rel="noopener noreferrer">Specula</a>
+        </div>
+        <div class="card-repo">specula-org/Specula</div>
+        <div class="card-desc">Specula: An agentic tool for finding deep bugs in system code using TLA+. It uses coding agents to write TLA+ specs of the target system.</div>
+        
+        <div class="card-stars">&#9733; 632</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #6c8ebf;">
+        <div class="card-title">
+          <img src="https://opengsd.net/icon.png?icon.0ckaue58111-7.png?dpl=dpl_9kDoJ2vWabeGK2oWvjhCSUzzFGT7" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://opengsd.net/" target="_blank" rel="noopener noreferrer">GSD Core</a>
+        </div>
+        <div class="card-repo">open-gsd/gsd-core</div>
+        <div class="card-desc">Context-engineering and spec-driven development framework that drives AI coding agents</div>
+        
+        <div class="card-stars">&#9733; 11.3k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #82b366;">
+    <div class="category-header" style="background: #d5e8d4; border-bottom: 1px solid #82b366; color: #1e1e2e;">
+      Coding Assistants &mdash; Coding assistants usable from a terminal
+    </div>
+
+    
+    <div class="groups-row">
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
+          General Purpose
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://pi.dev/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://pi.dev/" target="_blank" rel="noopener noreferrer">pi.dev</a>
+          </div>
+          <div class="card-repo">earendil-works/pi</div>
+          <div class="card-desc">Minimal agent harness — adapt to your workflow, not vice versa</div>
+          
+          <div class="card-stars">&#9733; 120.4k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://opencode.ai/favicon-96x96-v3.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://opencode.ai" target="_blank" rel="noopener noreferrer">OpenCode</a>
+          </div>
+          <div class="card-repo">anomalyco/opencode</div>
+          <div class="card-desc">OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop.</div>
+          
+          <div class="card-stars">&#9733; 224.9k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://docs.nanocollective.org/favicon-96x96.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://docs.nanocollective.org/nanocoder" target="_blank" rel="noopener noreferrer">NanoCoder</a>
+          </div>
+          <div class="card-repo">Nano-Collective/nanocoder</div>
+          <div class="card-desc">An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, keep your code on your machine, and owe nothing to anyone.</div>
+          
+          <div class="card-stars">&#9733; 2.6k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://qwen.ai/qwencode" target="_blank" rel="noopener noreferrer">Qwen Code</a>
+          </div>
+          <div class="card-repo">qwenLM/qwen-code</div>
+          <div class="card-desc">An open-source AI agent for the terminal, optimized for Qwen series models</div>
+          
+          <div class="card-stars">&#9733; 29.0k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://deepseek.com/harness/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://deepseek.com/harness/en/" target="_blank" rel="noopener noreferrer">DeepSeek Harness</a>
+          </div>
+          <div class="card-repo">deepseek-ai/deepseek-harness</div>
+          <div class="card-desc">Open-source agent harness developed by DeepSeek AI</div>
+          
+          <div class="card-stars">&#9733; 274.4k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://jcode.sh/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://jcode.sh/" target="_blank" rel="noopener noreferrer">jcode</a>
+          </div>
+          <div class="card-repo">1jehuang/jcode</div>
+          <div class="card-desc">The most RAM efficient harness</div>
+          
+          <div class="card-stars">&#9733; 21.5k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
+          Local-First
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://codehamr.com/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://codehamr.com" target="_blank" rel="noopener noreferrer">Codehamr</a>
+          </div>
+          <div class="card-repo">codehamr/codehamr</div>
+          <div class="card-desc">A minimal, local-first coding agent.</div>
+          
+          <div class="card-stars">&#9733; 222</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://atomicagent.io/favicon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://atomicagent.io" target="_blank" rel="noopener noreferrer">Atomic Agent</a>
+          </div>
+          <div class="card-repo">AtomicBot-ai/atomic-agent</div>
+          <div class="card-desc">A local-first AI agent that runs on your machine, with local or cloud models.</div>
+          
+          <div class="card-stars">&#9733; 3.4k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #d6b656;">
+    <div class="category-header" style="background: #ffe6cc; border-bottom: 1px solid #d6b656; color: #1e1e2e;">
+      SDLC Templates or Template Management &mdash; Holding agentic configurations, skills, etc.
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://res.gcloudcache.com/volc-fe/openviking/playground/openviking-logo.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://openviking.ai/" target="_blank" rel="noopener noreferrer">OpenViking</a>
+        </div>
+        <div class="card-repo">volcengine/OpenViking</div>
+        <div class="card-desc">Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</div>
+        
+        <div class="card-stars">&#9733; 41.7k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://mimir.featurefactory.io/static/images/mimir-logo.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://mimir.featurefactory.io" target="_blank" rel="noopener noreferrer">Mimir</a>
+        </div>
+        <div class="card-repo">FeatureFactory-io/mimir</div>
+        <div class="card-desc">Mimir is a foundation for self-evolving methodologies for well-defined tasks</div>
+        
+        <div class="card-stars">&#9733; 16</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://arckit.org/assets/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://arckit.org/" target="_blank" rel="noopener noreferrer">ArcKit</a>
+        </div>
+        <div class="card-repo">tractorjuice/arc-kit</div>
+        <div class="card-desc">ArcKit is an enterprise Architecture governance harness that wraps your AI coding assistant</div>
+        
+        <div class="card-stars">&#9733; 2.3k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://hivementality.ai/logo.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://hivementality.ai/" target="_blank" rel="noopener noreferrer">Hivemind</a>
+        </div>
+        <div class="card-repo">hivementality-ai/hivemind</div>
+        <div class="card-desc">Self-hosted multi-agent AI team platform. 40+ built-in tools, 150+ agent templates.</div>
+        
+        <div class="card-stars">&#9733; 89</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://avatars.githubusercontent.com/u/225919603" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.openhands.dev" target="_blank" rel="noopener noreferrer">OpenHands</a>
+        </div>
+        <div class="card-repo">OpenHands/OpenHands</div>
+        <div class="card-desc">The self-hosted developer control center for coding agents and automations.</div>
+        
+        <div class="card-stars">&#9733; 92.8k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #9673a6;">
+    <div class="category-header" style="background: #e1d5e7; border-bottom: 1px solid #9673a6; color: #1e1e2e;">
+      Orchestration
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://openai.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/openai/symphony" target="_blank" rel="noopener noreferrer">Symphony</a>
+        </div>
+        <div class="card-repo">openai/symphony</div>
+        <div class="card-desc">Isolated autonomous implementation runs for teams</div>
+        
+        <div class="card-stars">&#9733; 28.0k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/microsoft/conductor" target="_blank" rel="noopener noreferrer">Conductor</a>
+        </div>
+        <div class="card-repo">microsoft/conductor</div>
+        <div class="card-desc">Multi-agent workflows with GitHub Copilot SDK</div>
+        
+        <div class="card-stars">&#9733; 492</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/opensquilla/opensquilla" target="_blank" rel="noopener noreferrer">OpenSquilla</a>
+        </div>
+        <div class="card-repo">opensquilla/opensquilla</div>
+        <div class="card-desc">Token-efficient AI agent with higher intelligence density</div>
+        
+        <div class="card-stars">&#9733; 7.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://fabro.sh/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.fabro.sh/getting-started/introduction" target="_blank" rel="noopener noreferrer">Fabro</a>
+        </div>
+        <div class="card-repo">fabro-sh/fabro</div>
+        <div class="card-desc">Version-controlled workflow graphs orchestrating AI agents, commands, and human gates</div>
+        
+        <div class="card-stars">&#9733; 1.8k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://huggingface.co/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/huggingface/smolagents" target="_blank" rel="noopener noreferrer">smolagents</a>
+        </div>
+        <div class="card-repo">huggingface/smolagents</div>
+        <div class="card-desc">Barebones library for agents that think in code</div>
+        
+        <div class="card-stars">&#9733; 30.2k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/aden-hive/hive" target="_blank" rel="noopener noreferrer">OpenHive</a>
+        </div>
+        <div class="card-repo">aden-hive/hive</div>
+        <div class="card-desc">Multi-agent harness for production AI workloads</div>
+        
+        <div class="card-stars">&#9733; 11.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://bernstein.run/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://bernstein.run/" target="_blank" rel="noopener noreferrer">bernstein</a>
+        </div>
+        <div class="card-repo">sipyourdrink-ltd/bernstein</div>
+        <div class="card-desc">Audit-grade multi-agent orchestration, HMAC-chained audit log</div>
+        
+        <div class="card-stars">&#9733; 1.2k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://t3.codes/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://t3.codes/" target="_blank" rel="noopener noreferrer">T3 Code</a>
+        </div>
+        <div class="card-repo">pingdotgg/t3code</div>
+        <div class="card-desc">T3 Code is an agent harness control surface.</div>
+        
+        <div class="card-stars">&#9733; 48.8k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://googlecloudplatform.github.io/scion/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://googlecloudplatform.github.io/scion/overview/" target="_blank" rel="noopener noreferrer">Scion</a>
+        </div>
+        <div class="card-repo">GoogleCloudPlatform/scion</div>
+        <div class="card-desc">Scion is a container-based orchestration platform for running multiple LLM deep agents concurren</div>
+        
+        <div class="card-stars">&#9733; 2.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://awslabs.github.io/aidlc-workflows/" target="_blank" rel="noopener noreferrer">AWS AI-DLC</a>
+        </div>
+        <div class="card-repo">awslabs/aidlc-workflows</div>
+        <div class="card-desc">AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents</div>
+        
+        <div class="card-stars">&#9733; 5.8k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://docs.humanlayer.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.humanlayer.com/" target="_blank" rel="noopener noreferrer">HumanLayer</a>
+        </div>
+        <div class="card-repo">humanlayer/humanlayer</div>
+        <div class="card-desc">HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.</div>
+        
+        <div class="card-stars">&#9733; 12.8k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #d6b656;">
+    <div class="category-header" style="background: #fff2cc; border-bottom: 1px solid #d6b656; color: #1e1e2e;">
+      AST and Code Parsers
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://cocoindex.io/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://cocoindex.io/cocoindex-code/" target="_blank" rel="noopener noreferrer">CocoIndex Code</a>
+        </div>
+        <div class="card-repo">cocoindex-io/cocoindex</div>
+        <div class="card-desc">AST-based lightweight code search engine CLI; saves 70% tokens</div>
+        
+        <div class="card-stars">&#9733; 11.8k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://cgc.codes/cgcIcon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://cgc.codes/" target="_blank" rel="noopener noreferrer">CodeGraphContext</a>
+        </div>
+        <div class="card-repo">CodeGraphContext/CodeGraphContext</div>
+        <div class="card-desc">MCP server indexing local code into a graph database</div>
+        
+        <div class="card-stars">&#9733; 4.4k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://ast-grep.github.io/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://ast-grep.github.io/" target="_blank" rel="noopener noreferrer">ast-grep</a>
+        </div>
+        <div class="card-repo">ast-grep/ast-grep</div>
+        <div class="card-desc">CLI tool for code structural search, lint and rewriting in Rust</div>
+        
+        <div class="card-stars">&#9733; 16.5k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://avatars.githubusercontent.com/u/66332970?s=60&amp;v=4" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/redhat-et/ripwire" target="_blank" rel="noopener noreferrer">ripwire</a>
+        </div>
+        <div class="card-repo">redhat-et/ripwire</div>
+        <div class="card-desc">The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.</div>
+        
+        <div class="card-stars">&#9733; 2.5k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://graphify.com/favicon.ico?favicon.3fnvbih2wf4-_.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://graphify.com/" target="_blank" rel="noopener noreferrer">Graphify</a>
+        </div>
+        <div class="card-repo">Graphify-Labs/graphify</div>
+        <div class="card-desc">Turn code and docs into queryable AI knowledge graphs</div>
+        
+        <div class="card-stars">&#9733; 143.2k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://understand-anything.com/favicon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://understand-anything.com/" target="_blank" rel="noopener noreferrer">Understand Anything</a>
+        </div>
+        <div class="card-repo">Egonex-AI/Understand-Anything</div>
+        <div class="card-desc">Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</div>
+        
+        <div class="card-stars">&#9733; 91.0k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #e91e63;">
+    <div class="category-header" style="background: #fce4ec; border-bottom: 1px solid #e91e63; color: #1e1e2e;">
+      Sandboxes
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #e91e63;">
+        <div class="card-title">
+          <img src="https://www.nvidia.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.nvidia.com/openshell/about/overview" target="_blank" rel="noopener noreferrer">NVIDIA OpenShell</a>
+        </div>
+        <div class="card-repo">docs.nvidia.com</div>
+        <div class="card-desc">Sandboxed agent runtime with hardware-enforced isolation and policy</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #e91e63;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/deeplethe/forkd" target="_blank" rel="noopener noreferrer">forkd</a>
+        </div>
+        <div class="card-repo">deeplethe/forkd</div>
+        <div class="card-desc">fork() for AI agent microVMs; spawn 100 children in ~100ms</div>
+        
+        <div class="card-stars">&#9733; 5.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #e91e63;">
+        <div class="card-title">
+          <img src="https://open-sandbox.ai/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://open-sandbox.ai/" target="_blank" rel="noopener noreferrer">OpenSandbox</a>
+        </div>
+        <div class="card-repo">opensandbox-group/OpenSandbox</div>
+        <div class="card-desc">Secure, fast, extensible sandbox runtime for AI agents</div>
+        
+        <div class="card-stars">&#9733; 16.5k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #e91e63;">
+        <div class="card-title">
+          <img src="https://www.daytona.io/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://www.daytona.io/" target="_blank" rel="noopener noreferrer">Daytona</a>
+        </div>
+        <div class="card-repo">daytonaio/daytona</div>
+        <div class="card-desc">Elastic infrastructure for running AI-generated code; sub-90ms creation</div>
+        
+        <div class="card-stars">&#9733; 71.4k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #e91e63;">
+        <div class="card-title">
+          <img src="https://mintcdn.com/e2b/uddn8UjXXXb9b3Jk/logo/light.svg?fit=max&amp;auto=format&amp;n=uddn8UjXXXb9b3Jk&amp;q=85&amp;s=7b91f2676214cde58b1fff770b90936e" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.e2b.dev" target="_blank" rel="noopener noreferrer">E2B</a>
+        </div>
+        <div class="card-repo">e2b-dev/e2b</div>
+        <div class="card-desc">E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools.</div>
+        
+        <div class="card-stars">&#9733; 14.7k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #6c8ebf;">
+    <div class="category-header" style="background: #dae8fc; border-bottom: 1px solid #6c8ebf; color: #1e1e2e;">
+      Working with Skills
+    </div>
+
+    
+    <div class="groups-row">
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
+          Skill Reference
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://agentskills.io/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://agentskills.io/home" target="_blank" rel="noopener noreferrer">Agent Skills</a>
+          </div>
+          <div class="card-repo">agentskills.io</div>
+          <div class="card-desc">Standardized open format for extending AI agent capabilities via SKILL.md files</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
+          Skill Syntax Validation
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/agent-ecosystem/skill-validator" target="_blank" rel="noopener noreferrer">skill-validator</a>
+          </div>
+          <div class="card-repo">agent-ecosystem/skill-validator</div>
+          <div class="card-desc">Validates skill content against the Agent Skill specification</div>
+          
+          <div class="card-stars">&#9733; 265</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
+          Skill Repositories
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://osmt.io/assets/images/osmt-logo-symbol.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/wgu-opensource/osmt" target="_blank" rel="noopener noreferrer">OSMT</a>
+          </div>
+          <div class="card-repo">wgu-opensource/osmt</div>
+          <div class="card-desc">OSMT is the Open Skills Management Tool</div>
+          
+          <div class="card-stars">&#9733; 67</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://github.com/iflytek/skillhub/raw/main/skillhub-logo.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/iflytek/skillhub" target="_blank" rel="noopener noreferrer">SkillHub</a>
+          </div>
+          <div class="card-repo">iflytek/skillhub</div>
+          <div class="card-desc">Self-hosted, open-source agent skill registry for enterprises.</div>
+          
+          <div class="card-stars">&#9733; 5.4k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
+          Skill Dependency Management
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://vercel.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/vercel-labs/skills" target="_blank" rel="noopener noreferrer">skills (Vercel Labs)</a>
+          </div>
+          <div class="card-repo">vercel-labs/skills</div>
+          <div class="card-desc">Open agent skills CLI; supports OpenCode, Claude Code, Codex, Cursor and 68+ more</div>
+          
+          <div class="card-stars">&#9733; 38.3k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://microsoft.github.io/apm/" target="_blank" rel="noopener noreferrer">Microsoft APM (Agent Package Manager</a>
+          </div>
+          <div class="card-repo">microsoft/apm</div>
+          <div class="card-desc">An open-source, community-driven dependency manager for AI agents.</div>
+          
+          <div class="card-stars">&#9733; 4.3k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
+          Skill Security Scanners
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/cisco-ai-defense/defenseclaw" target="_blank" rel="noopener noreferrer">DefenseClaw</a>
+          </div>
+          <div class="card-repo">cisco-ai-defense/defenseclaw</div>
+          <div class="card-desc">Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence</div>
+          
+          <div class="card-stars">&#9733; 906</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #6c8ebf;">
+          <div class="card-title">
+            <img src="https://www.nvidia.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/nvidia/skillspector" target="_blank" rel="noopener noreferrer">SkillSpector</a>
+          </div>
+          <div class="card-repo">nvidia/skillspector</div>
+          <div class="card-desc">Security scanner for AI agent skills; detects vulnerabilities before installation</div>
+          
+          <div class="card-stars">&#9733; 24.6k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #82b366;">
+    <div class="category-header" style="background: #d5e8d4; border-bottom: 1px solid #82b366; color: #1e1e2e;">
+      Knowledge Base
+    </div>
+
+    
+    <div class="groups-row">
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
+          LLM Wikis
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://openknowledge.ai/marketing-assets/ok-logo.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://openknowledge.ai/" target="_blank" rel="noopener noreferrer">OpenKnowledge</a>
+          </div>
+          <div class="card-repo">inkeep/open-knowledge</div>
+          <div class="card-desc">Beautiful, AI-native markdown IDE and LLM wiki</div>
+          
+          <div class="card-stars">&#9733; 4.8k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://zosmaai.github.io/pi-llm-wiki/" target="_blank" rel="noopener noreferrer">pi-llm-wiki</a>
+          </div>
+          <div class="card-repo">zosmaai/pi-llm-wiki</div>
+          <div class="card-desc">Self-maintaining, Obsidian-compatible knowledge base for pi</div>
+          
+          <div class="card-stars">&#9733; 625</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
+          Open Knowledge Format (OKF)
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://okf.md/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://okf.md/tools/" target="_blank" rel="noopener noreferrer">OKF Ecosystem</a>
+          </div>
+          <div class="card-repo">okf.md</div>
+          <div class="card-desc">Open Knowledge Format ecosystem; tools, spec and docs for AI agent knowledge bases</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/mattdav/okflint" target="_blank" rel="noopener noreferrer">okflint</a>
+          </div>
+          <div class="card-repo">mattdav/okflint</div>
+          <div class="card-desc">Deterministic compliance linter for OKF bundles; profile-based rule enforcement</div>
+          
+          <div class="card-stars">&#9733; 10</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/superops-team/okf" target="_blank" rel="noopener noreferrer">okf CLI</a>
+          </div>
+          <div class="card-repo">superops-team/okf</div>
+          <div class="card-desc">CLI for git-based OKF knowledge bases; keeps bundles fresh via git hooks</div>
+          
+          <div class="card-stars">&#9733; 37</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4a429d54e956e2a763_favicon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation" target="_blank" rel="noopener noreferrer">OpenWiki</a>
+          </div>
+          <div class="card-repo">langchain-ai/openwiki</div>
+          <div class="card-desc">OpenWiki is a CLI that writes and maintains agent documentation for your codebase in OKF compatible format.</div>
+          
+          <div class="card-stars">&#9733; 17.8k</div>
+          
+          
+        </div>
+        
+      </div>
+      
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
+          Technology Specifics
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://context7.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://context7.com/" target="_blank" rel="noopener noreferrer">Context7</a>
+          </div>
+          <div class="card-repo">upstash/context7</div>
+          <div class="card-desc">Up-to-date documentation for LLMs and AI code editors</div>
+          
+          <div class="card-stars">&#9733; 64.3k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://docs.langchain.com/mintlify-assets/_mintlify/favicons/langchain-5e9cc07a/YSQua9Gt91yRswvJ/_generated/favicon/android-chrome-192x192.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://docs.langchain.com/use-these-docs" target="_blank" rel="noopener noreferrer">LangChain docs MCP + skills</a>
+          </div>
+          <div class="card-repo">docs.langchain.com</div>
+          <div class="card-desc">Use LangChain Docs Programmatically with MCP and installed skills</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://www.nvidia.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://github.com/nvidia/skills" target="_blank" rel="noopener noreferrer">NVIDIA Agent Skills</a>
+          </div>
+          <div class="card-repo">nvidia/skills</div>
+          <div class="card-desc">Official NVIDIA-verified skills catalog for CUDA-X, AI Blueprints and platform tools</div>
+          
+          <div class="card-stars">&#9733; 3.9k</div>
+          
+          
+        </div>
+        
+        <div class="card" style="border-color: #82b366;">
+          <div class="card-title">
+            <img src="https://datahub.com/wp-content/uploads/2026/01/dataHub_symbol_color.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <a href="https://datahub.com/blog/datahub-open-source-skills-registry/" target="_blank" rel="noopener noreferrer">DataHub Skills</a>
+          </div>
+          <div class="card-repo">datahub-project/datahub-skills</div>
+          <div class="card-desc">Agent skills for working with DataHub</div>
+          
+          <div class="card-stars">&#9733; 46</div>
+          
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #d6b656;">
+    <div class="category-header" style="background: #ffe6cc; border-bottom: 1px solid #d6b656; color: #1e1e2e;">
+      Token Control
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://www.rtk-ai.app/brand/favicon/favicon-32.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://www.rtk-ai.app/" target="_blank" rel="noopener noreferrer">rtk</a>
+        </div>
+        <div class="card-repo">rtk-ai/rtk</div>
+        <div class="card-desc">CLI proxy reduces LLM token consumption by 60-90% on common dev commands; single Rust binary</div>
+        
+        <div class="card-stars">&#9733; 85.7k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://ponytail.dev/assets/logo-dark.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://ponytail.dev/" target="_blank" rel="noopener noreferrer">ponytail</a>
+        </div>
+        <div class="card-repo">dietrichgebert/ponytail</div>
+        <div class="card-desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</div>
+        
+        <div class="card-stars">&#9733; 185.5k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://extraheadroom.com/headroom-logo.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://extraheadroom.com/" target="_blank" rel="noopener noreferrer">Headroom Desktop</a>
+        </div>
+        <div class="card-repo">gglucass/headroom-desktop</div>
+        <div class="card-desc">MacOS menu bar app cuts Claude Code and Codex token costs by ~50%</div>
+        
+        <div class="card-stars">&#9733; 635</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #d6b656;">
+        <div class="card-title">
+          <img src="https://docs.caveman.so/favicon.svg" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://docs.caveman.so/" target="_blank" rel="noopener noreferrer">Caveman</a>
+        </div>
+        <div class="card-repo">JuliusBrussee/caveman</div>
+        <div class="card-desc">An efficiency stack for AI agents - cuts 65% of tokens by talking like caveman</div>
+        
+        <div class="card-stars">&#9733; 117.9k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  <section class="category" style="border-color: #9673a6;">
+    <div class="category-header" style="background: #e1d5e7; border-bottom: 1px solid #9673a6; color: #1e1e2e;">
+      Observability
+    </div>
+
+    
+    <div class="items-row">
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://langfuse.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://langfuse.com/integrations/native/opentelemetry" target="_blank" rel="noopener noreferrer">Langfuse</a>
+        </div>
+        <div class="card-repo">langfuse/langfuse</div>
+        <div class="card-desc">Open source AI observability platform; LLM evals, metrics, tracing, prompt management</div>
+        
+        <div class="card-stars">&#9733; 37.1k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://arize.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://arize.com/docs/phoenix/" target="_blank" rel="noopener noreferrer">Phoenix</a>
+        </div>
+        <div class="card-repo">Arize-ai/phoenix</div>
+        <div class="card-desc">AI observability and evaluation by Arize; traces, evals, datasets</div>
+        
+        <div class="card-stars">&#9733; 12.2k</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://code.claude.com/docs/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://code.claude.com/docs/en/monitoring-usage" target="_blank" rel="noopener noreferrer">Claude Code - OTEL</a>
+        </div>
+        <div class="card-repo">code.claude.com</div>
+        <div class="card-desc">How to enable and configure OpenTelemetry for Claude Code.</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://signoz.io/static/favicons/apple-touch-icon.png" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://signoz.io/blog/claude-code-monitoring-with-opentelemetry/" target="_blank" rel="noopener noreferrer">SigNoz - Coding agent observability</a>
+        </div>
+        <div class="card-repo">signoz.io</div>
+        <div class="card-desc">ClaudeCode observability with SigNoz and OpenTelemetry</div>
+        
+        
+      </div>
+      
+      <div class="card" style="border-color: #9673a6;">
+        <div class="card-title">
+          <img src="https://github.com/favicon.ico" alt="" loading="lazy" onerror="this.style.display='none'" />
+          <a href="https://github.com/AgentOps-AI/agentops" target="_blank" rel="noopener noreferrer">agentops</a>
+        </div>
+        <div class="card-repo">AgentOps-AI/agentops</div>
+        <div class="card-desc">Python SDK for AI agent monitoring, LLM cost tracking, benchmarking</div>
+        
+        <div class="card-stars">&#9733; 6.0k</div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <style>
+    /* ── Base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      padding: 24px;
+      line-height: 1.4;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #cdd6f4;
+      margin-bottom: 28px;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Category section ─────────────────────────────────────────── */
+    .category {
+      margin-bottom: 18px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid;
+    }
+
+    .category-header {
+      padding: 8px 14px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* ── Flat layout: single row of cards ────────────────────────── */
+    .items-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    /* ── Grouped layout: row of sub-group columns ─────────────────── */
+    .groups-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px;
+      align-items: flex-start;
+    }
+
+    .subgroup {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .subgroup-header {
+      font-weight: 700;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-align: center;
+      border: 1px solid;
+    }
+
+    /* ── Card ─────────────────────────────────────────────────────── */
+    .card {
+      background: #3e3e4e;
+      border-radius: 6px;
+      border: 1px solid;
+      padding: 8px 10px;
+      width: 220px;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      word-break: break-word;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .card-title a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .card-title img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+
+    .card-repo {
+      font-size: 11px;
+      color: #a6adc8;
+    }
+
+    .card-desc {
+      font-size: 11px;
+      color: #bac2de;
+      flex-grow: 1;
+    }
+
+    .card-stars {
+      font-weight: bold;
+      font-size: 11px;
+      color: #ffbf00;
+      margin-top: auto;
+    }
+
+    .card-warning {
+      font-size: 9px;
+      color: #999;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+
+  {% for cat in categories %}
+  {% set palette = cat.palette %}
+  <section class="category" style="border-color: {{ palette.stroke }};">
+    <div class="category-header" style="background: {{ palette.fill }}; border-bottom: 1px solid {{ palette.stroke }}; color: #1e1e2e;">
+      {{ cat.name }}{% if cat.subtitle %} &mdash; {{ cat.subtitle }}{% endif %}
+    </div>
+
+    {% if cat.has_groups %}
+    <div class="groups-row">
+      {% for group in cat.groups %}
+      <div class="subgroup">
+        <div class="subgroup-header" style="background: {{ palette.fill }}20; border-color: {{ palette.stroke }}; color: {{ palette.stroke }};">
+          {{ group.name }}
+        </div>
+        {% for card in group.cards %}
+        <div class="card" style="border-color: {{ palette.stroke }};">
+          <div class="card-title">
+            {% if card.favicon_url %}<img src="{{ card.favicon_url }}" alt="" loading="lazy" onerror="this.style.display='none'" />{% endif %}
+            {% if card.link_url %}<a href="{{ card.link_url }}" target="_blank" rel="noopener noreferrer">{{ card.name }}</a>{% else %}<strong>{{ card.name }}</strong>{% endif %}
+          </div>
+          <div class="card-repo">{{ card.repo_short }}</div>
+          <div class="card-desc">{{ card.description or "N/A" }}</div>
+          {% if card.stars is not none %}
+          <div class="card-stars">&#9733; {{ card.stars_fmt }}</div>
+          {% endif %}
+          {% if card.warning %}
+          <div class="card-warning">&#9888; {{ card.warning }}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    {% else %}
+    <div class="items-row">
+      {% for card in cat.cards %}
+      <div class="card" style="border-color: {{ palette.stroke }};">
+        <div class="card-title">
+          {% if card.favicon_url %}<img src="{{ card.favicon_url }}" alt="" loading="lazy" onerror="this.style.display='none'" />{% endif %}
+          {% if card.link_url %}<a href="{{ card.link_url }}" target="_blank" rel="noopener noreferrer">{{ card.name }}</a>{% else %}<strong>{{ card.name }}</strong>{% endif %}
+        </div>
+        <div class="card-repo">{{ card.repo_short }}</div>
+        <div class="card-desc">{{ card.description or "N/A" }}</div>
+        {% if card.stars is not none %}
+        <div class="card-stars">&#9733; {{ card.stars_fmt }}</div>
+        {% endif %}
+        {% if card.warning %}
+        <div class="card-warning">&#9888; {{ card.warning }}</div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endfor %}
+</body>
+</html>
