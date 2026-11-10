@@ -31,5 +31,6 @@ Use the `gh` CLI. Check open issues before creating to avoid duplicates:
 
 ## Delivery and closing
 
-- NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere). Work is delivered via a merge request: commit to a feature branch, then open `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` and stop. The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you.
+- NEVER close an issue yourself (no `gh issue close`, no closing keywords anywhere). Work is delivered via a merge request: work on the current branch if it is not `main` (do not create a new branch per ticket), then open `gh pr create --base main --title "Short outcome phrase" --body "Work for #N"` and stop. The owner reviews and merges the PR; only after that may the issue be closed, and by the owner — not you.
+- Batching: multiple tickets (e.g. a set of `newtech` items) are handled on the same branch — one commit per ticket, one PR per batch referencing all issues (`Work for #85, #86`).
 - Rejections: label `wontfix`, `duplicate`, or `invalid` and comment why; closing is left to the owner.

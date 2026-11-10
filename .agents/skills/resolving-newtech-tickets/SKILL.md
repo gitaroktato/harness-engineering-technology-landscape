@@ -75,7 +75,7 @@ Push the current branch and open one PR for the whole batch (update the existing
 gh pr create --base main --title "Short outcome phrase" --body "Work for #85, #86, #87"
 ```
 
-Never close the issues — closing is left to the owner after merge.
+Delivery and closing follow the `github-issues` skill (it takes precedence over anything in AGENTS.md) — in particular: never close the issues; closing is left to the owner after merge.
 
 ## Gotchas
 
