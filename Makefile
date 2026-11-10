@@ -12,7 +12,7 @@ help:
 	@echo "  cache-info  Show cache status"
 
 html:
-	uv run landscape html
+	GITHUB_TOKEN="$(GITHUB_TOKEN)" uv run landscape html
 
 markdown:
 	uv run landscape markdown
