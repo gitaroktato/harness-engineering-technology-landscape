@@ -1,9 +1,9 @@
 ---
 name: resolving-newtech-tickets
-description: Use when the user asks to resolve, work on, or add a GitHub issue labeled `newtech` in the harness-engineering repo. Covers adding a new technology (or fixing an existing entry's URL/repo/favicon) to the tech landscape config and regenerating the output. Activates for "resolve #NNN", "add <tool> to the landscape", "fix the <tool> URL", or any mention of the `newtech` label.
+description: Use when the user asks to resolve, work on, or add a GitHub issue labeled `newtech` in this tech landscape repo. Covers adding a new technology (or fixing an existing entry's URL/repo/favicon) to the tech landscape config and regenerating the output. Activates for "resolve #NNN", "add <tool> to the landscape", "fix the <tool> URL", or any mention of the `newtech` label.
 ---
 
-Resolving a `newtech` ticket means updating the tech landscape: edit `landscape/config/landscape.yaml`, regenerate the HTML output, and commit referencing the issue.
+Resolving a `newtech` ticket means updating the tech landscape: edit `config/landscape.yaml`, regenerate the HTML/Markdown output, and commit referencing the issue.
 
 ## When to Use This Skill
 
@@ -13,7 +13,7 @@ Resolving a `newtech` ticket means updating the tech landscape: edit `landscape/
 
 ## Workflow
 
-All commands run from the `landscape/` directory (paths are relative to it).
+All commands run from the repository root (paths below are relative to it).
 
 ### Step 1: Read the ticket
 
@@ -60,11 +60,11 @@ feat: HumanLayer (#157)
 fix: Graphify URL (#134)
 ```
 
-Then follow the repo's GitHub workflow (see `landscape/AGENTS.md`): commit to a feature branch, open `gh pr create --base main`, and stop. Never close the issue — closing is left to the owner after merge.
+Then follow the repo's GitHub workflow (see `AGENTS.md`): commit to a feature branch, open `gh pr create --base main`, and stop. Never close the issue — closing is left to the owner after merge.
 
 ## Gotchas
 
-- Must run from `landscape/` — Makefile/cli paths are relative to it.
+- Must run from the repository root — Makefile/cli paths are relative to it.
 - GitHub API rate limits: the 24h cache (`.landscape-cache.json`) handles this; don't bypass it unnecessarily.
 - New favicons land in `assets/icons/` and must be committed alongside the regenerated HTML.
 - Description strings go in double quotes in the YAML.
