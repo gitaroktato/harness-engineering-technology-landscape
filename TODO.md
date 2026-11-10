@@ -1,3 +1,2 @@
-- Add token usage to Makefile
-- Use Makefile commands in all instructions to reduce redundancy
 - Accurate favico fetch
+- Confirm section for newtech tickets
