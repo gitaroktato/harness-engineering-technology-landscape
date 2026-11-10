@@ -1,6 +1,8 @@
-# Technology Landscape
+# Harness Engineering Technology Landscape
 
-A living map of the tooling we're keeping an eye on for AI-assisted and spec-driven engineering — coding assistants, orchestration, sandboxes, skills, knowledge bases, token control, observability, and more.
+A technology landscape covering harness engineering related tools and technologies.
+
+This is the map of the tooling we're keeping an eye on for AI-assisted and spec-driven engineering — coding assistants, orchestration, sandboxes, skills, knowledge bases, token control, observability, and more.
 
 Everything is driven by a single YAML file (`config/landscape.yaml`). When you run the generator it fetches live data from the GitHub API (star counts, descriptions, favicons) and renders the landscape two ways:
 
