@@ -268,6 +268,10 @@ categories:
         favicon: https://herdr.dev/favicon.ico
         repo: herdrdev/herdr
         description: "Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed"
+      - name: "Cove"
+        url: https://www.covectl.com/
+        favicon: https://www.covectl.com/favicon.svg
+        description: "Hosted agent infrastructure by GitGuardian; every run boots an isolated sandbox with your own disk, scales to thousands of copies and handles OAuth for Slack, GitHub, Stripe and MCP"
 
   - name: "Working with Skills"
     groups:
