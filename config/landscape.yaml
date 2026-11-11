@@ -133,64 +133,73 @@ categories:
 
 
   - name: "Orchestration"
-    items:
-      - name: "Symphony"
-        repo: openai/symphony
-        favicon: https://openai.com/favicon.ico
-        description: "Isolated autonomous implementation runs for teams"
-      - name: "Conductor"
-        repo: microsoft/conductor
-        description: "Multi-agent workflows with GitHub Copilot SDK"
-      - name: "OpenSquilla"
-        repo: opensquilla/opensquilla
-        description: "Token-efficient AI agent with higher intelligence density"
-      - name: "Fabro"
-        repo: fabro-sh/fabro
-        url: https://docs.fabro.sh/getting-started/introduction
-        favicon: https://fabro.sh/favicon.svg
-        description: "Version-controlled workflow graphs orchestrating AI agents, commands, and human gates"
-      - name: "smolagents"
-        repo: huggingface/smolagents
-        favicon: https://huggingface.co/favicon.ico
-        description: "Barebones library for agents that think in code"
-      - name: "OpenHive"
-        repo: aden-hive/hive
-        description: "Multi-agent harness for production AI workloads"
-      - name: "bernstein"
-        favicon: https://bernstein.run/favicon.svg
-        url: https://bernstein.run/
-        repo: sipyourdrink-ltd/bernstein
-        description: "Audit-grade multi-agent orchestration, HMAC-chained audit log"
-      - name: "T3 Code"
-        favicon: https://t3.codes/favicon.ico
-        url: https://t3.codes/
-        repo: pingdotgg/t3code
-        description: "T3 Code is an agent harness control surface."
-      - name: "Scion"
-        favicon: https://googlecloudplatform.github.io/scion/favicon.svg
-        url: https://googlecloudplatform.github.io/scion/overview/
-        repo: GoogleCloudPlatform/scion
-        description: "Scion is a container-based orchestration platform for running multiple LLM deep agents concurren"
-      - name: "AWS AI-DLC"
-        url: https://awslabs.github.io/aidlc-workflows/
-        favicon: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
-        repo: awslabs/aidlc-workflows
-        description: "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
-      - name: "HumanLayer"
-        favicon: https://docs.humanlayer.com/favicon.ico
-        url: https://docs.humanlayer.com/
-        repo: humanlayer/humanlayer
-        description: "HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host."
-      - name: "Paperclip"
-        favicon: https://paperclip.ing/favicon.svg
-        url: https://paperclip.ing/
-        repo: paperclipai/paperclip
-        description: "The open-source app everyone uses to manage agents at work"
-      - name: "Harness²"
-        repo: google-research/harness2
-        url: https://harness2.github.io/
-        favicon: https://harness2.github.io/assets/logo.png
-        description: "Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration"
+    groups:
+      - name: "General Purpose"
+        items:
+          - name: "Symphony"
+            repo: openai/symphony
+            favicon: https://openai.com/favicon.ico
+            description: "Isolated autonomous implementation runs for teams"
+          - name: "Conductor"
+            repo: microsoft/conductor
+            description: "Multi-agent workflows with GitHub Copilot SDK"
+          - name: "OpenSquilla"
+            repo: opensquilla/opensquilla
+            description: "Token-efficient AI agent with higher intelligence density"
+          - name: "Fabro"
+            repo: fabro-sh/fabro
+            url: https://docs.fabro.sh/getting-started/introduction
+            favicon: https://fabro.sh/favicon.svg
+            description: "Version-controlled workflow graphs orchestrating AI agents, commands, and human gates"
+          - name: "smolagents"
+            repo: huggingface/smolagents
+            favicon: https://huggingface.co/favicon.ico
+            description: "Barebones library for agents that think in code"
+          - name: "OpenHive"
+            repo: aden-hive/hive
+            description: "Multi-agent harness for production AI workloads"
+          - name: "bernstein"
+            favicon: https://bernstein.run/favicon.svg
+            url: https://bernstein.run/
+            repo: sipyourdrink-ltd/bernstein
+            description: "Audit-grade multi-agent orchestration, HMAC-chained audit log"
+          - name: "Scion"
+            favicon: https://googlecloudplatform.github.io/scion/favicon.svg
+            url: https://googlecloudplatform.github.io/scion/overview/
+            repo: GoogleCloudPlatform/scion
+            description: "Scion is a container-based orchestration platform for running multiple LLM deep agents concurren"
+          - name: "AWS AI-DLC"
+            url: https://awslabs.github.io/aidlc-workflows/
+            favicon: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
+            repo: awslabs/aidlc-workflows
+            description: "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+          - name: "HumanLayer"
+            favicon: https://docs.humanlayer.com/favicon.ico
+            url: https://docs.humanlayer.com/
+            repo: humanlayer/humanlayer
+            description: "HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host."
+          - name: "Harness²"
+            repo: google-research/harness2
+            url: https://harness2.github.io/
+            favicon: https://harness2.github.io/assets/logo.png
+            description: "Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration"
+      - name: "Multi-Agent Workspaces"
+        items:
+          - name: "T3 Code"
+            favicon: https://t3.codes/favicon.ico
+            url: https://t3.codes/
+            repo: pingdotgg/t3code
+            description: "T3 Code is an agent harness control surface."
+          - name: "Paperclip"
+            favicon: https://paperclip.ing/favicon.svg
+            url: https://paperclip.ing/
+            repo: paperclipai/paperclip
+            description: "The open-source app everyone uses to manage agents at work"
+          - name: "Orca"
+            url: https://www.onorca.dev/
+            repo: stablyai/orca
+            favicon: https://www.onorca.dev/favicon.ico?favicon.0b_4r1oldigkv.ico
+            description: "Run a fleet of coding agents (Claude Code, Codex) with your own subscription; available on desktop, mobile and remote runtime"
 
   - name: "AST and Code Parsers"
     items:
@@ -233,6 +242,11 @@ categories:
         repo: oraios/serena
         favicon: https://oraios.github.io/serena/_static/serena-icon-32.png
         description: "MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent"
+      - name: "enola"
+        url: https://enola.tech/
+        repo: enola-labs/enola
+        favicon: https://enola.tech/favicon.svg
+        description: "One graph of your whole software system, built from the code on your machine; parses modules, functions, API routes and DB tables across repos, exposed to agents over MCP with CI checks for architectural regressions"
 
   - name: "Sandboxes"
     items:
@@ -263,6 +277,20 @@ categories:
         favicon: https://herdr.dev/favicon.ico
         repo: herdrdev/herdr
         description: "Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed"
+      - name: "Cove"
+        url: https://www.covectl.com/
+        favicon: https://www.covectl.com/favicon.svg
+        description: "Hosted agent infrastructure by GitGuardian; every run boots an isolated sandbox with your own disk, scales to thousands of copies and handles OAuth for Slack, GitHub, Stripe and MCP"
+      - name: "Microsandbox"
+        url: https://microsandbox.dev/
+        repo: superradcompany/microsandbox
+        favicon: https://microsandbox.dev/icon
+        description: "Easy, fast, programmable and local-first microVM runtime and library"
+      - name: "StrandsAgents box"
+        url: https://strandsagents.com/
+        repo: strands-agents/box
+        favicon: https://strandsagents.com/favicon.svg
+        description: "Rust sandbox for AI agents; OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent, on macOS and Linux"
 
   - name: "Working with Skills"
     groups:

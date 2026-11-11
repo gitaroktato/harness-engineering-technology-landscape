@@ -52,6 +52,8 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 
 ## Orchestration
 
+### General Purpose
+
 - [Symphony](https://github.com/openai/symphony) - Isolated autonomous implementation runs for teams
 - [Conductor](https://github.com/microsoft/conductor) - Multi-agent workflows with GitHub Copilot SDK
 - [OpenSquilla](https://github.com/opensquilla/opensquilla) - Token-efficient AI agent with higher intelligence density
@@ -59,12 +61,16 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [smolagents](https://github.com/huggingface/smolagents) - Barebones library for agents that think in code
 - [OpenHive](https://github.com/aden-hive/hive) - Multi-agent harness for production AI workloads
 - [bernstein](https://bernstein.run/) - Audit-grade multi-agent orchestration, HMAC-chained audit log
-- [T3 Code](https://t3.codes/) - T3 Code is an agent harness control surface.
 - [Scion](https://googlecloudplatform.github.io/scion/overview/) - Scion is a container-based orchestration platform for running multiple LLM deep agents concurren
 - [AWS AI-DLC](https://awslabs.github.io/aidlc-workflows/) - AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents
 - [HumanLayer](https://docs.humanlayer.com/) - HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.
-- [Paperclip](https://paperclip.ing/) - The open-source app everyone uses to manage agents at work
 - [Harness²](https://harness2.github.io/) - Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration
+
+### Multi-Agent Workspaces
+
+- [T3 Code](https://t3.codes/) - T3 Code is an agent harness control surface.
+- [Paperclip](https://paperclip.ing/) - The open-source app everyone uses to manage agents at work
+- [Orca](https://www.onorca.dev/) - Run a fleet of coding agents (Claude Code, Codex) with your own subscription; available on desktop, mobile and remote runtime
 
 ## AST and Code Parsers
 
@@ -76,6 +82,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Understand Anything](https://understand-anything.com/) - Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.
 - [Trail-Code (Graft)](https://trailhq.com/trail-code) - Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP
 - [Serena](https://oraios.github.io/serena/) - MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent
+- [enola](https://enola.tech/) - One graph of your whole software system, built from the code on your machine; parses modules, functions, API routes and DB tables across repos, exposed to agents over MCP with CI checks for architectural regressions
 
 ## Sandboxes
 
@@ -85,6 +92,9 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Daytona](https://www.daytona.io/) - Elastic infrastructure for running AI-generated code; sub-90ms creation
 - [E2B](https://docs.e2b.dev) - E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools.
 - [Herdr](https://herdr.dev/) - Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed
+- [Cove](https://www.covectl.com/) - Hosted agent infrastructure by GitGuardian; every run boots an isolated sandbox with your own disk, scales to thousands of copies and handles OAuth for Slack, GitHub, Stripe and MCP
+- [Microsandbox](https://microsandbox.dev/) - Easy, fast, programmable and local-first microVM runtime and library
+- [StrandsAgents box](https://strandsagents.com/) - Rust sandbox for AI agents; OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent, on macOS and Linux
 
 ## Working with Skills
 
