@@ -11,6 +11,8 @@ categories:
         description: "Spec-driven development for AI coding assistants"
       - name: "spec-kit"
         repo: github/spec-kit
+        url: https://github.github.com/spec-kit/
+        favicon: https://github.github.com/spec-kit/images/spec-kit-logo.webp
         description: "Toolkit to get started with Spec-Driven Development"
       - name: "BMAD"
         repo: bmad-code-org/bmad-method
@@ -66,6 +68,10 @@ categories:
             repo: 1jehuang/jcode
             favicon: https://jcode.sh/favicon.ico
             description: "The most RAM efficient harness"
+          - name: "prime-agent"
+            repo: PrimeIntellect-ai/prime-agent
+            favicon: https://avatars.githubusercontent.com/u/148051844
+            description: "A self-improving RLM agent for coding workflows and long-running autonomous tasks"
       - name: "Code Review"
         items:
           - name: "open-code-review"
@@ -275,11 +281,17 @@ categories:
         items:
           - name: "DefenseClaw"
             repo: cisco-ai-defense/defenseclaw
+            url: https://cisco-ai-defense.github.io/defenseclaw/
+            favicon: https://cisco-ai-defense.github.io/defenseclaw/icon.svg?icon.2tz88d5mo9ggz.svg
             description: "Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence"
           - name: "SkillSpector"
             repo: nvidia/skillspector
             favicon: https://www.nvidia.com/favicon.ico
             description: "Security scanner for AI agent skills; detects vulnerabilities before installation"
+          - name: "Cloudflare - security audit skill"
+            repo: cloudflare/security-audit-skill
+            favicon: https://avatars.githubusercontent.com/u/314135
+            description: "Coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
 
   - name: "Knowledge Base"
     groups:
@@ -294,6 +306,11 @@ categories:
             url: https://zosmaai.github.io/pi-llm-wiki/
             repo: zosmaai/pi-llm-wiki
             description: "Self-maintaining, Obsidian-compatible knowledge base for pi"
+          - name: "Khoj"
+            url: https://khoj.dev/
+            repo: khoj-ai/khoj
+            favicon: https://khoj.dev/favicon.png
+            description: "Self-hostable AI second brain; answers from the web or your docs, custom agents and scheduled automations"
       - name: "Open Knowledge Format (OKF)"
         items:
           - name: "OKF Ecosystem"
