@@ -223,6 +223,11 @@ categories:
         repo: Egonex-AI/Understand-Anything
         favicon: https://understand-anything.com/favicon.png
         description: "Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about."
+      - name: "Trail-Code (Graft)"
+        url: https://trailhq.com/trail-code
+        repo: trailhq/Trail-Code
+        favicon: https://trailhq.com/favicon.svg
+        description: "Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP"
 
   - name: "Sandboxes"
     items:
