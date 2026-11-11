@@ -114,6 +114,11 @@ categories:
         repo: OpenHands/OpenHands
         favicon: https://avatars.githubusercontent.com/u/225919603
         description: "The self-hosted developer control center for coding agents and automations."
+      - name: "Fabric"
+        url: https://danielmiessler.com/
+        repo: danielmiessler/fabric
+        favicon: https://danielmiessler.com/favicon.ico
+        description: "Open-source framework for augmenting humans with AI; a crowdsourced, modular set of AI prompt skills usable anywhere"
 
 
   - name: "Orchestration"
