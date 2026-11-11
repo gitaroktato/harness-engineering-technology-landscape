@@ -82,6 +82,24 @@ categories:
             url: https://forgecode.dev/
             favicon: https://forgecode.dev/shared/brand/favicon.svg
             description: "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models."
+          - name: "Claude Code"
+            repo: anthropics/claude-code
+            url: https://code.claude.com/docs/en/overview
+            favicon: https://code.claude.com/docs/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png
+            description: "Agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows"
+          - name: "Codex"
+            repo: openai/codex
+            favicon: https://avatars.githubusercontent.com/u/14957082
+            description: "Lightweight coding agent that runs in your terminal"
+          - name: "Cursor CLI"
+            url: https://cursor.com/cli
+            favicon: https://cursor.com/marketing-static/icon-192x192-light.png
+            description: "Cursor's autonomous coding agent for the terminal, distributed via npm (cursor-agent)"
+          - name: "GitHub Copilot CLI"
+            repo: github/copilot-cli
+            url: https://github.com/github/copilot-cli
+            favicon: https://avatars.githubusercontent.com/u/9919
+            description: "GitHub Copilot coding agent in your terminal"
       - name: "Code Review"
         items:
           - name: "open-code-review"
