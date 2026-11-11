@@ -186,6 +186,11 @@ categories:
         url: https://paperclip.ing/
         repo: paperclipai/paperclip
         description: "The open-source app everyone uses to manage agents at work"
+      - name: "Harness²"
+        repo: google-research/harness2
+        url: https://harness2.github.io/
+        favicon: https://harness2.github.io/assets/logo.png
+        description: "Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration"
 
   - name: "AST and Code Parsers"
     items:
