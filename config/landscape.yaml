@@ -191,6 +191,11 @@ categories:
         url: https://harness2.github.io/
         favicon: https://harness2.github.io/assets/logo.png
         description: "Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration"
+      - name: "Orca"
+        url: https://www.onorca.dev/
+        repo: stablyai/orca
+        favicon: https://www.onorca.dev/favicon.ico?favicon.0b_4r1oldigkv.ico
+        description: "Run a fleet of coding agents (Claude Code, Codex) with your own subscription; available on desktop, mobile and remote runtime"
 
   - name: "AST and Code Parsers"
     items:
