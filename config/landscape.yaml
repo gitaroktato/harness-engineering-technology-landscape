@@ -32,6 +32,11 @@ categories:
         url: https://opengsd.net/
         favicon: https://opengsd.net/icon.png?icon.0ckaue58111-7.png?dpl=dpl_9kDoJ2vWabeGK2oWvjhCSUzzFGT7
         description: "Context-engineering and spec-driven development framework that drives AI coding agents"
+      - name: "Elephant-Goldfish Model"
+        repo: google/elephant-goldfish-model
+        url: https://egm.dev/
+        favicon: https://egm.dev/favicon.svg
+        description: "Open-source plugin for designing and reviewing software with agents"
 
   - name: "Coding Assistants"
     subtitle: "Coding assistants usable from a terminal"
@@ -181,6 +186,11 @@ categories:
         url: https://paperclip.ing/
         repo: paperclipai/paperclip
         description: "The open-source app everyone uses to manage agents at work"
+      - name: "Harness²"
+        repo: google-research/harness2
+        url: https://harness2.github.io/
+        favicon: https://harness2.github.io/assets/logo.png
+        description: "Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration"
 
   - name: "AST and Code Parsers"
     items:
@@ -213,6 +223,16 @@ categories:
         repo: Egonex-AI/Understand-Anything
         favicon: https://understand-anything.com/favicon.png
         description: "Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about."
+      - name: "Trail-Code (Graft)"
+        url: https://trailhq.com/trail-code
+        repo: trailhq/Trail-Code
+        favicon: https://trailhq.com/favicon.svg
+        description: "Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP"
+      - name: "Serena"
+        url: https://oraios.github.io/serena/
+        repo: oraios/serena
+        favicon: https://oraios.github.io/serena/_static/serena-icon-32.png
+        description: "MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent"
 
   - name: "Sandboxes"
     items:

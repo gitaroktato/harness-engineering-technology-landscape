@@ -628,5 +628,41 @@
     "favicon_path": null,
     "fetched_at": 1794386466.503622,
     "source": "github"
+  },
+  "google/elephant-goldfish-model": {
+    "key": "google/elephant-goldfish-model",
+    "stars": 17326,
+    "description": "Open-source plugin for designing and reviewing software with agents",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794388221.1164315,
+    "source": "github"
+  },
+  "google-research/harness2": {
+    "key": "google-research/harness2",
+    "stars": 23441,
+    "description": "",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794388221.582509,
+    "source": "github"
+  },
+  "trailhq/Trail-Code": {
+    "key": "trailhq/Trail-Code",
+    "stars": 11197,
+    "description": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794388222.0208282,
+    "source": "github"
+  },
+  "oraios/serena": {
+    "key": "oraios/serena",
+    "stars": 31286,
+    "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794388222.4823678,
+    "source": "github"
   }
 }
