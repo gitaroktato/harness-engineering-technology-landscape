@@ -1,1 +1,0 @@
-- Accurate favico fetch
