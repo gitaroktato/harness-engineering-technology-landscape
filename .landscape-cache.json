@@ -583,5 +583,23 @@
     "favicon_path": null,
     "fetched_at": 1794381851.2183888,
     "source": "github"
+  },
+  "paperclipai/paperclip": {
+    "key": "paperclipai/paperclip",
+    "stars": 113022,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794384595.1701334,
+    "source": "github"
+  },
+  "junhoyeo/tokscale": {
+    "key": "junhoyeo/tokscale",
+    "stars": 5827,
+    "description": "\ud83d\udef0\ufe0f Track token usage across AI coding agents from your terminal. \ud83c\udfc5 Global leaderboard with trillions of tokens tracked.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794384595.5465026,
+    "source": "github"
   }
 }

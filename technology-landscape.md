@@ -61,6 +61,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Scion](https://googlecloudplatform.github.io/scion/overview/) - Scion is a container-based orchestration platform for running multiple LLM deep agents concurren
 - [AWS AI-DLC](https://awslabs.github.io/aidlc-workflows/) - AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents
 - [HumanLayer](https://docs.humanlayer.com/) - HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.
+- [Paperclip](https://paperclip.ing/) - The open-source app everyone uses to manage agents at work
 
 ## AST and Code Parsers
 
@@ -140,6 +141,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Claude Code - OTEL](https://code.claude.com/docs/en/monitoring-usage) - How to enable and configure OpenTelemetry for Claude Code.
 - [SigNoz - Coding agent observability](https://signoz.io/blog/claude-code-monitoring-with-opentelemetry/) - ClaudeCode observability with SigNoz and OpenTelemetry
 - [agentops](https://github.com/AgentOps-AI/agentops) - Python SDK for AI agent monitoring, LLM cost tracking, benchmarking
+- [Tokscale](https://tokscale.ai/) - High-performance CLI and dashboard for tracking token usage and costs across multiple AI coding agents, with a global leaderboard
 
 ## References
 
