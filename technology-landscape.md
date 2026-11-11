@@ -9,7 +9,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 ### Spec-Driven Development
 
 - [OpenSpec](https://openspec.dev/) - Spec-driven development for AI coding assistants
-- [spec-kit](https://github.com/github/spec-kit) - Toolkit to get started with Spec-Driven Development
+- [spec-kit](https://github.github.com/spec-kit/) - Toolkit to get started with Spec-Driven Development
 - [BMAD](https://github.com/bmad-code-org/bmad-method) - Breakthrough Method for Agile AI Driven Development
 - [Spec Kitty](https://spec-kitty.ai/) - Spec Kitty is an open-source CLI for turning product intent into a repo-native AI coding workflow:
 - [Specula](https://specula.info/) - Specula: An agentic tool for finding deep bugs in system code using TLA+. It uses coding agents to write TLA+ specs of the target system.
@@ -27,6 +27,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Qwen Code](https://qwen.ai/qwencode) - An open-source AI agent for the terminal, optimized for Qwen series models
 - [DeepSeek Harness](https://deepseek.com/harness/en/) - Open-source agent harness developed by DeepSeek AI
 - [jcode](https://jcode.sh/) - The most RAM efficient harness
+- [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) - A self-improving RLM agent for coding workflows and long-running autonomous tasks
 
 ### Code Review
 
@@ -105,6 +106,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw) - Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence
 - [SkillSpector](https://github.com/nvidia/skillspector) - Security scanner for AI agent skills; detects vulnerabilities before installation
+- [Cloudflare - security audit skill](https://github.com/cloudflare/security-audit-skill) - Coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
 
 ## Knowledge Base
 
@@ -112,6 +114,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 
 - [OpenKnowledge](https://openknowledge.ai/) - Beautiful, AI-native markdown IDE and LLM wiki
 - [pi-llm-wiki](https://zosmaai.github.io/pi-llm-wiki/) - Self-maintaining, Obsidian-compatible knowledge base for pi
+- [Khoj](https://khoj.dev/) - Self-hostable AI second brain; answers from the web or your docs, custom agents and scheduled automations
 
 ### Open Knowledge Format (OKF)
 
