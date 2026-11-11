@@ -736,5 +736,32 @@
     "favicon_path": null,
     "fetched_at": 1794392866.6911542,
     "source": "github"
+  },
+  "anthropics/claude-code": {
+    "key": "anthropics/claude-code",
+    "stars": 155252,
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794394885.8044963,
+    "source": "github"
+  },
+  "openai/codex": {
+    "key": "openai/codex",
+    "stars": 134854,
+    "description": "Lightweight coding agent that runs in your terminal",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794394886.331279,
+    "source": "github"
+  },
+  "github/copilot-cli": {
+    "key": "github/copilot-cli",
+    "stars": 11399,
+    "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. ",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794394886.9474916,
+    "source": "github"
   }
 }

@@ -30,6 +30,10 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [jcode](https://jcode.sh/) - The most RAM efficient harness
 - [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) - A self-improving RLM agent for coding workflows and long-running autonomous tasks
 - [forge code](https://forgecode.dev/) - AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
+- [Claude Code](https://code.claude.com/docs/en/overview) - Agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows
+- [Codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal
+- [Cursor CLI](https://cursor.com/cli) - Cursor's autonomous coding agent for the terminal, distributed via npm (cursor-agent)
+- [GitHub Copilot CLI](https://github.com/github/copilot-cli) - GitHub Copilot coding agent in your terminal
 
 ### Code Review
 
