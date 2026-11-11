@@ -48,10 +48,9 @@
       padding: 12px;
     }
 
-    /* ── Grouped layout: row of sub-group columns ─────────────────── */
+    /* ── Grouped layout: sub-groups sharing the full row width ────── */
     .groups-row {
       display: flex;
-      flex-wrap: wrap;
       gap: 10px;
       padding: 12px;
       align-items: flex-start;
@@ -59,11 +58,27 @@
 
     .subgroup {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       gap: 8px;
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    /* Cards inside sub-groups stay near the standard 220px but can shrink
+       slightly so an extra column fits whenever the group has the space */
+    .subgroup .card {
+      flex: 1 1 196px;
+      min-width: 0;
+      max-width: 220px;
+    }
+
+    /* A lone card fills its (narrow) group instead of leaving a gap */
+    .subgroup .card:only-child {
+      max-width: none;
     }
 
     .subgroup-header {
+      width: 100%;
       font-weight: 700;
       font-size: 11px;
       padding: 4px 8px;
@@ -248,9 +263,10 @@
     </div>
 
     
+    
     <div class="groups-row">
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 70.0%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           General Purpose
         </div>
@@ -348,7 +364,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 10.0%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Code Review
         </div>
@@ -368,7 +384,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 20.0%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Local-First
         </div>
@@ -504,9 +520,10 @@
     </div>
 
     
+    
     <div class="groups-row">
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 78.57%;">
         <div class="subgroup-header" style="background: #e1d5e720; border-color: #9673a6; color: #9673a6;">
           General Purpose
         </div>
@@ -656,7 +673,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 21.43%;">
         <div class="subgroup-header" style="background: #e1d5e720; border-color: #9673a6; color: #9673a6;">
           Multi-Agent Workspaces
         </div>
@@ -970,9 +987,10 @@
     </div>
 
     
+    
     <div class="groups-row">
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 11.11%;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Reference
         </div>
@@ -990,7 +1008,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 11.11%;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Syntax Validation
         </div>
@@ -1010,7 +1028,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 22.22%;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Repositories
         </div>
@@ -1043,7 +1061,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 22.22%;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Dependency Management
         </div>
@@ -1076,7 +1094,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 33.33%;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Security Scanners
         </div>
@@ -1134,9 +1152,10 @@
     </div>
 
     
+    
     <div class="groups-row">
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 27.27%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           LLM Wikis
         </div>
@@ -1182,7 +1201,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 36.36%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Open Knowledge Format (OKF)
         </div>
@@ -1239,7 +1258,7 @@
         
       </div>
       
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: 36.36%;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Technology Specifics
         </div>
