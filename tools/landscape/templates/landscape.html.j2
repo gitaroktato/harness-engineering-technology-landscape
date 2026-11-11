@@ -48,7 +48,7 @@
       padding: 12px;
     }
 
-    /* ── Grouped layout: row of sub-group columns ─────────────────── */
+    /* ── Grouped layout: sub-groups sharing the full row width ────── */
     .groups-row {
       display: flex;
       flex-wrap: wrap;
@@ -59,11 +59,14 @@
 
     .subgroup {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       gap: 8px;
+      flex: 1 1 auto;
+      min-width: 230px;
     }
 
     .subgroup-header {
+      width: 100%;
       font-weight: 700;
       font-size: 11px;
       padding: 4px 8px;
@@ -144,9 +147,10 @@
     </div>
 
     {% if cat.has_groups %}
+    {% set total_cards = cat.groups | map(attribute='cards') | map('length') | sum %}
     <div class="groups-row">
       {% for group in cat.groups %}
-      <div class="subgroup">
+      <div class="subgroup" style="flex-basis: {{ (group.cards|length / total_cards * 100) | round(2) }}%;">
         <div class="subgroup-header" style="background: {{ palette.fill }}20; border-color: {{ palette.stroke }}; color: {{ palette.stroke }};">
           {{ group.name }}
         </div>
