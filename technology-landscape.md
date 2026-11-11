@@ -14,6 +14,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Spec Kitty](https://spec-kitty.ai/) - Spec Kitty is an open-source CLI for turning product intent into a repo-native AI coding workflow:
 - [Specula](https://specula.info/) - Specula: An agentic tool for finding deep bugs in system code using TLA+. It uses coding agents to write TLA+ specs of the target system.
 - [GSD Core](https://opengsd.net/) - Context-engineering and spec-driven development framework that drives AI coding agents
+- [Elephant-Goldfish Model](https://egm.dev/) - Open-source plugin for designing and reviewing software with agents
 
 ## Coding Assistants
 
@@ -63,6 +64,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [AWS AI-DLC](https://awslabs.github.io/aidlc-workflows/) - AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents
 - [HumanLayer](https://docs.humanlayer.com/) - HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.
 - [Paperclip](https://paperclip.ing/) - The open-source app everyone uses to manage agents at work
+- [Harness²](https://harness2.github.io/) - Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration
 
 ## AST and Code Parsers
 
@@ -72,6 +74,8 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [ripwire](https://github.com/redhat-et/ripwire) - The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.
 - [Graphify](https://graphify.com/) - Turn code and docs into queryable AI knowledge graphs
 - [Understand Anything](https://understand-anything.com/) - Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.
+- [Trail-Code (Graft)](https://trailhq.com/trail-code) - Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP
+- [Serena](https://oraios.github.io/serena/) - MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent
 
 ## Sandboxes
 
