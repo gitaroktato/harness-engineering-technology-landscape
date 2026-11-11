@@ -228,6 +228,11 @@ categories:
         repo: trailhq/Trail-Code
         favicon: https://trailhq.com/favicon.svg
         description: "Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP"
+      - name: "Serena"
+        url: https://oraios.github.io/serena/
+        repo: oraios/serena
+        favicon: https://oraios.github.io/serena/_static/serena-icon-32.png
+        description: "MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent"
 
   - name: "Sandboxes"
     items:
