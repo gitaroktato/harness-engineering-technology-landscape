@@ -281,6 +281,8 @@ categories:
         items:
           - name: "DefenseClaw"
             repo: cisco-ai-defense/defenseclaw
+            url: https://cisco-ai-defense.github.io/defenseclaw/
+            favicon: https://cisco-ai-defense.github.io/defenseclaw/icon.svg?icon.2tz88d5mo9ggz.svg
             description: "Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence"
           - name: "SkillSpector"
             repo: nvidia/skillspector

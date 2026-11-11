@@ -104,7 +104,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 
 ### Skill Security Scanners
 
-- [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw) - Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence
+- [DefenseClaw](https://cisco-ai-defense.github.io/defenseclaw/) - Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence
 - [SkillSpector](https://github.com/nvidia/skillspector) - Security scanner for AI agent skills; detects vulnerabilities before installation
 - [Cloudflare - security audit skill](https://github.com/cloudflare/security-audit-skill) - Coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
 
