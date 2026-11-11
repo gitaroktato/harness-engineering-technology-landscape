@@ -277,6 +277,11 @@ categories:
         repo: superradcompany/microsandbox
         favicon: https://microsandbox.dev/icon
         description: "Easy, fast, programmable and local-first microVM runtime and library"
+      - name: "StrandsAgents box"
+        url: https://strandsagents.com/
+        repo: strands-agents/box
+        favicon: https://strandsagents.com/favicon.svg
+        description: "Rust sandbox for AI agents; OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent, on macOS and Linux"
 
   - name: "Working with Skills"
     groups:
