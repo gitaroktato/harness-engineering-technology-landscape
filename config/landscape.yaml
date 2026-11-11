@@ -66,6 +66,10 @@ categories:
             repo: 1jehuang/jcode
             favicon: https://jcode.sh/favicon.ico
             description: "The most RAM efficient harness"
+          - name: "prime-agent"
+            repo: PrimeIntellect-ai/prime-agent
+            favicon: https://avatars.githubusercontent.com/u/148051844
+            description: "A self-improving RLM agent for coding workflows and long-running autonomous tasks"
       - name: "Code Review"
         items:
           - name: "open-code-review"
