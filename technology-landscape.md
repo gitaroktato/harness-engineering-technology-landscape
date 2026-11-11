@@ -28,6 +28,10 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [DeepSeek Harness](https://deepseek.com/harness/en/) - Open-source agent harness developed by DeepSeek AI
 - [jcode](https://jcode.sh/) - The most RAM efficient harness
 
+### Code Review
+
+- [open-code-review](https://open-codereview.ai) - Hybrid-architecture code review tool combining deterministic pipelines with an LLM agent for precise line-level comments and built-in multi-language rulesets
+
 ### Local-First
 
 - [Codehamr](https://codehamr.com) - A minimal, local-first coding agent.
@@ -42,6 +46,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [ArcKit](https://arckit.org/) - ArcKit is an enterprise Architecture governance harness that wraps your AI coding assistant
 - [Hivemind](https://hivementality.ai/) - Self-hosted multi-agent AI team platform. 40+ built-in tools, 150+ agent templates.
 - [OpenHands](https://docs.openhands.dev) - The self-hosted developer control center for coding agents and automations.
+- [Fabric](https://danielmiessler.com/) - Open-source framework for augmenting humans with AI; a crowdsourced, modular set of AI prompt skills usable anywhere
 
 ## Orchestration
 
@@ -73,6 +78,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [OpenSandbox](https://open-sandbox.ai/) - Secure, fast, extensible sandbox runtime for AI agents
 - [Daytona](https://www.daytona.io/) - Elastic infrastructure for running AI-generated code; sub-90ms creation
 - [E2B](https://docs.e2b.dev) - E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools.
+- [Herdr](https://herdr.dev/) - Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed
 
 ## Working with Skills
 

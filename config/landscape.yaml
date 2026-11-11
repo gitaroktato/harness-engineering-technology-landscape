@@ -66,6 +66,13 @@ categories:
             repo: 1jehuang/jcode
             favicon: https://jcode.sh/favicon.ico
             description: "The most RAM efficient harness"
+      - name: "Code Review"
+        items:
+          - name: "open-code-review"
+            url: https://open-codereview.ai
+            repo: alibaba/open-code-review
+            favicon: https://open-codereview.ai/dbd8996c7419925db8e3.svg
+            description: "Hybrid-architecture code review tool combining deterministic pipelines with an LLM agent for precise line-level comments and built-in multi-language rulesets"
       - name: "Local-First"
         items:
           - name: "Codehamr"
@@ -107,6 +114,11 @@ categories:
         repo: OpenHands/OpenHands
         favicon: https://avatars.githubusercontent.com/u/225919603
         description: "The self-hosted developer control center for coding agents and automations."
+      - name: "Fabric"
+        url: https://danielmiessler.com/
+        repo: danielmiessler/fabric
+        favicon: https://danielmiessler.com/favicon.ico
+        description: "Open-source framework for augmenting humans with AI; a crowdsourced, modular set of AI prompt skills usable anywhere"
 
 
   - name: "Orchestration"
@@ -215,6 +227,11 @@ categories:
         url: https://docs.e2b.dev
         favicon: https://mintcdn.com/e2b/uddn8UjXXXb9b3Jk/logo/light.svg?fit=max&auto=format&n=uddn8UjXXXb9b3Jk&q=85&s=7b91f2676214cde58b1fff770b90936e
         description: "E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools."
+      - name: "Herdr"
+        url: https://herdr.dev/
+        favicon: https://herdr.dev/favicon.ico
+        repo: herdrdev/herdr
+        description: "Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed"
 
   - name: "Working with Skills"
     groups:

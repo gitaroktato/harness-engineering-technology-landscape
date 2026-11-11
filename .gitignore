@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Temporary migration workspace (throwaway)
+.tmp/
+
+# Agents extensions
+.agents/sessions/*.json
