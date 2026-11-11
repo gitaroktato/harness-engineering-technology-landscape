@@ -46,6 +46,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [ArcKit](https://arckit.org/) - ArcKit is an enterprise Architecture governance harness that wraps your AI coding assistant
 - [Hivemind](https://hivementality.ai/) - Self-hosted multi-agent AI team platform. 40+ built-in tools, 150+ agent templates.
 - [OpenHands](https://docs.openhands.dev) - The self-hosted developer control center for coding agents and automations.
+- [Fabric](https://danielmiessler.com/) - Open-source framework for augmenting humans with AI; a crowdsourced, modular set of AI prompt skills usable anywhere
 
 ## Orchestration
 

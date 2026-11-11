@@ -574,5 +574,14 @@
     "favicon_path": null,
     "fetched_at": 1794324306.9616446,
     "source": "github"
+  },
+  "danielmiessler/fabric": {
+    "key": "danielmiessler/fabric",
+    "stars": 44599,
+    "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794381851.2183888,
+    "source": "github"
   }
 }
