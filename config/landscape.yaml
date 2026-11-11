@@ -406,6 +406,11 @@ categories:
             url: https://datahub.com/blog/datahub-open-source-skills-registry/
             favicon: https://datahub.com/wp-content/uploads/2026/01/dataHub_symbol_color.svg
             description: "Agent skills for working with DataHub"
+          - name: "Angular skills"
+            repo: angular/skills
+            url: https://angular.dev/ai/agent-skills
+            favicon: https://angular.dev/assets/icons/favicon-32x32.png
+            description: "Official Angular agent skills package; teaches AI coding assistants how to build Angular apps."
 
   - name: "Token Control"
     items:
