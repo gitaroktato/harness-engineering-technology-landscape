@@ -77,6 +77,11 @@ categories:
             repo: PrimeIntellect-ai/prime-agent
             favicon: https://avatars.githubusercontent.com/u/148051844
             description: "A self-improving RLM agent for coding workflows and long-running autonomous tasks"
+          - name: "forge code"
+            repo: tailcallhq/forgecode
+            url: https://forgecode.dev/
+            favicon: https://forgecode.dev/shared/brand/favicon.svg
+            description: "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models."
       - name: "Code Review"
         items:
           - name: "open-code-review"
