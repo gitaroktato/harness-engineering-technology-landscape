@@ -298,6 +298,11 @@ categories:
             url: https://zosmaai.github.io/pi-llm-wiki/
             repo: zosmaai/pi-llm-wiki
             description: "Self-maintaining, Obsidian-compatible knowledge base for pi"
+          - name: "Khoj"
+            url: https://khoj.dev/
+            repo: khoj-ai/khoj
+            favicon: https://khoj.dev/favicon.png
+            description: "Self-hostable AI second brain; answers from the web or your docs, custom agents and scheduled automations"
       - name: "Open Knowledge Format (OKF)"
         items:
           - name: "OKF Ecosystem"
