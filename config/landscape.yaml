@@ -11,6 +11,8 @@ categories:
         description: "Spec-driven development for AI coding assistants"
       - name: "spec-kit"
         repo: github/spec-kit
+        url: https://github.github.com/spec-kit/
+        favicon: https://github.github.com/spec-kit/images/spec-kit-logo.webp
         description: "Toolkit to get started with Spec-Driven Development"
       - name: "BMAD"
         repo: bmad-code-org/bmad-method
