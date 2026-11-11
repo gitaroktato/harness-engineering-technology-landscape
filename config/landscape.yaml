@@ -233,6 +233,11 @@ categories:
         repo: oraios/serena
         favicon: https://oraios.github.io/serena/_static/serena-icon-32.png
         description: "MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent"
+      - name: "enola"
+        url: https://enola.tech/
+        repo: enola-labs/enola
+        favicon: https://enola.tech/favicon.svg
+        description: "One graph of your whole software system, built from the code on your machine; parses modules, functions, API routes and DB tables across repos, exposed to agents over MCP with CI checks for architectural regressions"
 
   - name: "Sandboxes"
     items:
