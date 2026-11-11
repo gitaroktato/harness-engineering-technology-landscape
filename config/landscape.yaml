@@ -378,3 +378,8 @@ categories:
       - name: "agentops"
         repo: AgentOps-AI/agentops
         description: "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking"
+      - name: "Tokscale"
+        url: https://tokscale.ai/
+        favicon: https://tokscale.ai/favicon.ico?favicon.3d_is0j-njo7a.ico
+        repo: junhoyeo/tokscale
+        description: "High-performance CLI and dashboard for tracking token usage and costs across multiple AI coding agents, with a global leaderboard"
