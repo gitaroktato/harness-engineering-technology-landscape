@@ -664,5 +664,41 @@
     "favicon_path": null,
     "fetched_at": 1794388222.4823678,
     "source": "github"
+  },
+  "stablyai/orca": {
+    "key": "stablyai/orca",
+    "stars": 121854,
+    "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794389794.1090267,
+    "source": "github"
+  },
+  "enola-labs/enola": {
+    "key": "enola-labs/enola",
+    "stars": 292,
+    "description": "Understand, analyze, and govern software systems across repositories, languages, and technologies.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794389794.5388093,
+    "source": "github"
+  },
+  "superradcompany/microsandbox": {
+    "key": "superradcompany/microsandbox",
+    "stars": 9022,
+    "description": "\ud83e\uddf1 easy, fast, programmable and local-first microVM runtime and library",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794389794.9763591,
+    "source": "github"
+  },
+  "strands-agents/box": {
+    "key": "strands-agents/box",
+    "stars": 530,
+    "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon and Linux.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794389795.4816122,
+    "source": "github"
   }
 }

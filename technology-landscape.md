@@ -65,6 +65,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [HumanLayer](https://docs.humanlayer.com/) - HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.
 - [Paperclip](https://paperclip.ing/) - The open-source app everyone uses to manage agents at work
 - [Harness²](https://harness2.github.io/) - Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration
+- [Orca](https://www.onorca.dev/) - Run a fleet of coding agents (Claude Code, Codex) with your own subscription; available on desktop, mobile and remote runtime
 
 ## AST and Code Parsers
 
@@ -76,6 +77,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Understand Anything](https://understand-anything.com/) - Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.
 - [Trail-Code (Graft)](https://trailhq.com/trail-code) - Self-learning context layer for coding agents; tree-sitter code map plus shared team learnings delivered via MCP
 - [Serena](https://oraios.github.io/serena/) - MCP toolkit for coding with semantic retrieval and editing; the IDE for your agent
+- [enola](https://enola.tech/) - One graph of your whole software system, built from the code on your machine; parses modules, functions, API routes and DB tables across repos, exposed to agents over MCP with CI checks for architectural regressions
 
 ## Sandboxes
 
@@ -85,6 +87,9 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [Daytona](https://www.daytona.io/) - Elastic infrastructure for running AI-generated code; sub-90ms creation
 - [E2B](https://docs.e2b.dev) - E2B provides isolated sandboxes that let agents safely execute code, process data, and run tools.
 - [Herdr](https://herdr.dev/) - Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed
+- [Cove](https://www.covectl.com/) - Hosted agent infrastructure by GitGuardian; every run boots an isolated sandbox with your own disk, scales to thousands of copies and handles OAuth for Slack, GitHub, Stripe and MCP
+- [Microsandbox](https://microsandbox.dev/) - Easy, fast, programmable and local-first microVM runtime and library
+- [StrandsAgents box](https://strandsagents.com/) - Rust sandbox for AI agents; OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent, on macOS and Linux
 
 ## Working with Skills
 
