@@ -51,7 +51,6 @@
     /* ── Grouped layout: sub-groups sharing the full row width ────── */
     .groups-row {
       display: flex;
-      flex-wrap: wrap;
       gap: 10px;
       padding: 12px;
       align-items: flex-start;
@@ -62,7 +61,20 @@
       flex-wrap: wrap;
       gap: 8px;
       flex: 1 1 auto;
-      min-width: 230px;
+      min-width: 0;
+    }
+
+    /* Cards inside sub-groups stay near the standard 220px but can shrink
+       slightly so an extra column fits whenever the group has the space */
+    .subgroup .card {
+      flex: 1 1 196px;
+      min-width: 0;
+      max-width: 220px;
+    }
+
+    /* A lone card fills its (narrow) group instead of leaving a gap */
+    .subgroup .card:only-child {
+      max-width: none;
     }
 
     .subgroup-header {
