@@ -325,6 +325,11 @@ categories:
             repo: microsoft/apm
             url: https://microsoft.github.io/apm/
             description: "An open-source, community-driven dependency manager for AI agents."
+          - name: "skills-manager"
+            repo: xingkongliang/skills-manager
+            url: https://skillsmanager.dev/
+            favicon: https://skillsmanager.dev/icon.png?icon.3ggh581kyv-_d.png
+            description: "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
       - name: "Skill Security Scanners"
         items:
           - name: "DefenseClaw"
