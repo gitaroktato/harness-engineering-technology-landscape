@@ -66,6 +66,8 @@ categories:
             repo: 1jehuang/jcode
             favicon: https://jcode.sh/favicon.ico
             description: "The most RAM efficient harness"
+      - name: "Code Review"
+        items:
           - name: "open-code-review"
             url: https://open-codereview.ai
             repo: alibaba/open-code-review
