@@ -286,6 +286,10 @@ categories:
             repo: nvidia/skillspector
             favicon: https://www.nvidia.com/favicon.ico
             description: "Security scanner for AI agent skills; detects vulnerabilities before installation"
+          - name: "Cloudflare - security audit skill"
+            repo: cloudflare/security-audit-skill
+            favicon: https://avatars.githubusercontent.com/u/314135
+            description: "Coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
 
   - name: "Knowledge Base"
     groups:
