@@ -35,8 +35,9 @@ Process the tickets the user named, or all open ones if told to clear the backlo
 2. Favicon: the auto-download from `url` is unreliable, so always set it manually. Fetch the item's own website HTML and look for `<link rel="icon" ...>` in the head, or try `https://<domain>/favicon.ico`. Put the absolute URL into the YAML.
 3. **Confirm category & group** (add tickets only — skip for fixes): before editing the YAML, ask the user which category (and sub-group, if the category has `groups:`) the tool belongs to.
 
-   - If you are confident in a single placement, present just that one option and ask for confirmation (e.g. "I'd put X under **Orchestration** — confirm?").
-   - If you are unsure, offer exactly 3 alternatives (category + group) with a one-line rationale each, and let the user pick.
+   - Lead with a 1–2 sentence factual summary of what you found during research (repo description, homepage, key capabilities) so the user sees *why* you're recommending a placement.
+   - If you are confident in a single placement, present just that one option and ask for confirmation (e.g. "X is a terminal-based multi-agent orchestrator with task queues → **Orchestration**. Confirm?").
+   - If you are unsure, offer exactly 3 alternatives (category + group), each preceded by the same factual summary or a targeted subset of it explaining why that bucket fits.
    - Do not proceed to the YAML edit until the user confirms. Batch multiple confirmations into one message when processing several add tickets.
 4. Add the item under the confirmed category's `items:` (or a group's `items:`). Existing categories: SDD, Coding Assistants, SDLC Templates or Template Management, Orchestration, AST and Code Parsers, Sandboxes, Working with Skills, Knowledge Base, Token Control, Observability:
 
