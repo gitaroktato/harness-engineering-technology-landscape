@@ -1,2 +1,1 @@
 - Accurate favico fetch
-- Confirm section for newtech tickets
