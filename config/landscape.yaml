@@ -330,6 +330,11 @@ categories:
             url: https://skillsmanager.dev/
             favicon: https://skillsmanager.dev/icon.png?icon.3ggh581kyv-_d.png
             description: "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+          - name: "Microsoft waza"
+            repo: microsoft/waza
+            url: https://microsoft.github.io/waza/
+            favicon: https://microsoft.github.io/waza/waza/favicon.svg
+            description: "CLI / framework for Agent Skills — create, test, measure and improve skill quality and effectiveness."
       - name: "Skill Security Scanners"
         items:
           - name: "DefenseClaw"
