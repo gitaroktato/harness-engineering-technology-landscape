@@ -272,6 +272,11 @@ categories:
         url: https://www.covectl.com/
         favicon: https://www.covectl.com/favicon.svg
         description: "Hosted agent infrastructure by GitGuardian; every run boots an isolated sandbox with your own disk, scales to thousands of copies and handles OAuth for Slack, GitHub, Stripe and MCP"
+      - name: "Microsandbox"
+        url: https://microsandbox.dev/
+        repo: superradcompany/microsandbox
+        favicon: https://microsandbox.dev/icon
+        description: "Easy, fast, programmable and local-first microVM runtime and library"
 
   - name: "Working with Skills"
     groups:
