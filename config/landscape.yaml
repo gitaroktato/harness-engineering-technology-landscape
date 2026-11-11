@@ -32,7 +32,7 @@ categories:
         url: https://opengsd.net/
         favicon: https://opengsd.net/icon.png?icon.0ckaue58111-7.png?dpl=dpl_9kDoJ2vWabeGK2oWvjhCSUzzFGT7
         description: "Context-engineering and spec-driven development framework that drives AI coding agents"
-      - name: "EGM"
+      - name: "Elephant-Goldfish Model"
         repo: google/elephant-goldfish-model
         url: https://egm.dev/
         favicon: https://egm.dev/favicon.svg
