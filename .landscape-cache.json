@@ -700,5 +700,41 @@
     "favicon_path": null,
     "fetched_at": 1794389795.4816122,
     "source": "github"
+  },
+  "tailcallhq/forgecode": {
+    "key": "tailcallhq/forgecode",
+    "stars": 7631,
+    "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794392865.1425104,
+    "source": "github"
+  },
+  "xingkongliang/skills-manager": {
+    "key": "xingkongliang/skills-manager",
+    "stars": 7443,
+    "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools \u2014 Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794392865.5665677,
+    "source": "github"
+  },
+  "microsoft/waza": {
+    "key": "microsoft/waza",
+    "stars": 1508,
+    "description": "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794392866.0955906,
+    "source": "github"
+  },
+  "angular/skills": {
+    "key": "angular/skills",
+    "stars": 721,
+    "description": "",
+    "favicon_url": "https://github.com/favicon.ico",
+    "favicon_path": null,
+    "fetched_at": 1794392866.6911542,
+    "source": "github"
   }
 }

@@ -29,6 +29,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [DeepSeek Harness](https://deepseek.com/harness/en/) - Open-source agent harness developed by DeepSeek AI
 - [jcode](https://jcode.sh/) - The most RAM efficient harness
 - [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) - A self-improving RLM agent for coding workflows and long-running autonomous tasks
+- [forge code](https://forgecode.dev/) - AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
 
 ### Code Review
 
@@ -115,6 +116,8 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 
 - [skills (Vercel Labs)](https://github.com/vercel-labs/skills) - Open agent skills CLI; supports OpenCode, Claude Code, Codex, Cursor and 68+ more
 - [Microsoft APM (Agent Package Manager](https://microsoft.github.io/apm/) - An open-source, community-driven dependency manager for AI agents.
+- [skills-manager](https://skillsmanager.dev/) - A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+- [Microsoft waza](https://microsoft.github.io/waza/) - CLI / framework for Agent Skills — create, test, measure and improve skill quality and effectiveness.
 
 ### Skill Security Scanners
 
@@ -143,6 +146,7 @@ In this article I'm collecting all the technologies I stumbled upon while resear
 - [LangChain docs MCP + skills](https://docs.langchain.com/use-these-docs) - Use LangChain Docs Programmatically with MCP and installed skills
 - [NVIDIA Agent Skills](https://github.com/nvidia/skills) - Official NVIDIA-verified skills catalog for CUDA-X, AI Blueprints and platform tools
 - [DataHub Skills](https://datahub.com/blog/datahub-open-source-skills-registry/) - Agent skills for working with DataHub
+- [Angular skills](https://angular.dev/ai/agent-skills) - Official Angular agent skills package; teaches AI coding assistants how to build Angular apps.
 
 ## Token Control
 

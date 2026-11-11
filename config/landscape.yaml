@@ -77,6 +77,11 @@ categories:
             repo: PrimeIntellect-ai/prime-agent
             favicon: https://avatars.githubusercontent.com/u/148051844
             description: "A self-improving RLM agent for coding workflows and long-running autonomous tasks"
+          - name: "forge code"
+            repo: tailcallhq/forgecode
+            url: https://forgecode.dev/
+            favicon: https://forgecode.dev/shared/brand/favicon.svg
+            description: "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models."
       - name: "Code Review"
         items:
           - name: "open-code-review"
@@ -325,6 +330,16 @@ categories:
             repo: microsoft/apm
             url: https://microsoft.github.io/apm/
             description: "An open-source, community-driven dependency manager for AI agents."
+          - name: "skills-manager"
+            repo: xingkongliang/skills-manager
+            url: https://skillsmanager.dev/
+            favicon: https://skillsmanager.dev/icon.png?icon.3ggh581kyv-_d.png
+            description: "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+          - name: "Microsoft waza"
+            repo: microsoft/waza
+            url: https://microsoft.github.io/waza/
+            favicon: https://microsoft.github.io/waza/waza/favicon.svg
+            description: "CLI / framework for Agent Skills — create, test, measure and improve skill quality and effectiveness."
       - name: "Skill Security Scanners"
         items:
           - name: "DefenseClaw"
@@ -396,6 +411,11 @@ categories:
             url: https://datahub.com/blog/datahub-open-source-skills-registry/
             favicon: https://datahub.com/wp-content/uploads/2026/01/dataHub_symbol_color.svg
             description: "Agent skills for working with DataHub"
+          - name: "Angular skills"
+            repo: angular/skills
+            url: https://angular.dev/ai/agent-skills
+            favicon: https://angular.dev/assets/icons/favicon-32x32.png
+            description: "Official Angular agent skills package; teaches AI coding assistants how to build Angular apps."
 
   - name: "Token Control"
     items:
