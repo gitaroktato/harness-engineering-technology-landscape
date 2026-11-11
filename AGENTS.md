@@ -134,3 +134,8 @@ uv run ruff check --fix            # auto-fix
 - **Output dir** `landscape/` is created on first run
 - **mypy strict mode** — type annotations required
 - **pytest** runs from repo root with `uv run pytest` (discovers `tests/`)
+
+## Historical data for previous agentic sessions
+
+- All session data is available under `.agents/sessions/` folder
+- To update the session history use the script `.agents/scripts/export_sessions.sh`
