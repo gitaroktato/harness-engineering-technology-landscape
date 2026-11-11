@@ -221,3 +221,6 @@ __marimo__/
 
 # Temporary migration workspace (throwaway)
 .tmp/
+
+# Agents extensions
+.agents/sessions/*.json
