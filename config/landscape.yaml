@@ -170,6 +170,11 @@ categories:
         url: https://docs.humanlayer.com/
         repo: humanlayer/humanlayer
         description: "HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host."
+      - name: "Paperclip"
+        favicon: https://paperclip.ing/favicon.svg
+        url: https://paperclip.ing/
+        repo: paperclipai/paperclip
+        description: "The open-source app everyone uses to manage agents at work"
 
   - name: "AST and Code Parsers"
     items:
