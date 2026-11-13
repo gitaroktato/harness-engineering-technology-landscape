@@ -40,34 +40,40 @@
       font-size: 13px;
     }
 
-    /* ── Flat layout: single row of cards ────────────────────────── */
+    /* Minimum card width; cards stretch beyond it to fill the row */
+    :root { --card-min: 200px; }
+
+    /* ── Flat layout: cards fill the row in equal-width columns ───── */
     .items-row {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--card-min), 1fr));
       gap: 10px;
       padding: 12px;
     }
 
-    /* ── Grouped layout: sub-groups sharing the full row width ────── */
+    /* ── Grouped layout: all sub-groups share a single row ─────────── */
     .groups-row {
       display: flex;
+      flex-wrap: nowrap;
       gap: 10px;
       padding: 12px;
-      flex-wrap: wrap;
       align-items: flex-start;
+      overflow-x: auto;
     }
 
-    /* A sub-group may shrink, but never below the width of one card */
+    /* Width is shared in proportion to the card count (flex-grow is set
+       inline per group), but never below the width of one card */
     .subgroup {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+      align-content: start;
       gap: 8px;
-      flex: 1 1 auto;
-      min-width: 220px;
+      flex: 1 1 0;
+      min-width: var(--card-min);
     }
 
     .subgroup-header {
-      width: 100%;
+      grid-column: 1 / -1;
       font-weight: 700;
       font-size: 11px;
       padding: 4px 8px;
@@ -82,9 +88,7 @@
       border-radius: 6px;
       border: 1px solid;
       padding: 8px 10px;
-      flex: 0 0 220px;
-      width: 220px;
-      min-width: 220px;
+      min-width: 0;
       min-height: 100px;
       display: flex;
       flex-direction: column;
@@ -254,10 +258,9 @@
     </div>
 
     
-    
     <div class="groups-row">
       
-      <div class="subgroup" style="flex-basis: 80.0%;">
+      <div class="subgroup" style="flex-grow: 12;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           General Purpose
         </div>
@@ -418,7 +421,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 6.67%;">
+      <div class="subgroup" style="flex-grow: 1;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Code Review
         </div>
@@ -438,7 +441,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 13.33%;">
+      <div class="subgroup" style="flex-grow: 2;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Local-First
         </div>
@@ -574,10 +577,9 @@
     </div>
 
     
-    
     <div class="groups-row">
       
-      <div class="subgroup" style="flex-basis: 78.57%;">
+      <div class="subgroup" style="flex-grow: 11;">
         <div class="subgroup-header" style="background: #e1d5e720; border-color: #9673a6; color: #9673a6;">
           General Purpose
         </div>
@@ -727,7 +729,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 21.43%;">
+      <div class="subgroup" style="flex-grow: 3;">
         <div class="subgroup-header" style="background: #e1d5e720; border-color: #9673a6; color: #9673a6;">
           Multi-Agent Workspaces
         </div>
@@ -1041,10 +1043,9 @@
     </div>
 
     
-    
     <div class="groups-row">
       
-      <div class="subgroup" style="flex-basis: 9.09%;">
+      <div class="subgroup" style="flex-grow: 1;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Reference
         </div>
@@ -1062,7 +1063,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 9.09%;">
+      <div class="subgroup" style="flex-grow: 1;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Syntax Validation
         </div>
@@ -1082,7 +1083,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 18.18%;">
+      <div class="subgroup" style="flex-grow: 2;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Repositories
         </div>
@@ -1115,7 +1116,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 36.36%;">
+      <div class="subgroup" style="flex-grow: 4;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Dependency Management
         </div>
@@ -1174,7 +1175,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 27.27%;">
+      <div class="subgroup" style="flex-grow: 3;">
         <div class="subgroup-header" style="background: #dae8fc20; border-color: #6c8ebf; color: #6c8ebf;">
           Skill Security Scanners
         </div>
@@ -1232,10 +1233,9 @@
     </div>
 
     
-    
     <div class="groups-row">
       
-      <div class="subgroup" style="flex-basis: 25.0%;">
+      <div class="subgroup" style="flex-grow: 3;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           LLM Wikis
         </div>
@@ -1281,7 +1281,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 33.33%;">
+      <div class="subgroup" style="flex-grow: 4;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Open Knowledge Format (OKF)
         </div>
@@ -1338,7 +1338,7 @@
         
       </div>
       
-      <div class="subgroup" style="flex-basis: 41.67%;">
+      <div class="subgroup" style="flex-grow: 5;">
         <div class="subgroup-header" style="background: #d5e8d420; border-color: #82b366; color: #82b366;">
           Technology Specifics
         </div>

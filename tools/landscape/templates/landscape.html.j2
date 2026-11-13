@@ -40,34 +40,40 @@
       font-size: 13px;
     }
 
-    /* ── Flat layout: single row of cards ────────────────────────── */
+    /* Minimum card width; cards stretch beyond it to fill the row */
+    :root { --card-min: 200px; }
+
+    /* ── Flat layout: cards fill the row in equal-width columns ───── */
     .items-row {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--card-min), 1fr));
       gap: 10px;
       padding: 12px;
     }
 
-    /* ── Grouped layout: sub-groups sharing the full row width ────── */
+    /* ── Grouped layout: all sub-groups share a single row ─────────── */
     .groups-row {
       display: flex;
+      flex-wrap: nowrap;
       gap: 10px;
       padding: 12px;
-      flex-wrap: wrap;
       align-items: flex-start;
+      overflow-x: auto;
     }
 
-    /* A sub-group may shrink, but never below the width of one card */
+    /* Width is shared in proportion to the card count (flex-grow is set
+       inline per group), but never below the width of one card */
     .subgroup {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+      align-content: start;
       gap: 8px;
-      flex: 1 1 auto;
-      min-width: 220px;
+      flex: 1 1 0;
+      min-width: var(--card-min);
     }
 
     .subgroup-header {
-      width: 100%;
+      grid-column: 1 / -1;
       font-weight: 700;
       font-size: 11px;
       padding: 4px 8px;
@@ -82,9 +88,7 @@
       border-radius: 6px;
       border: 1px solid;
       padding: 8px 10px;
-      flex: 0 0 220px;
-      width: 220px;
-      min-width: 220px;
+      min-width: 0;
       min-height: 100px;
       display: flex;
       flex-direction: column;
@@ -150,10 +154,9 @@
     </div>
 
     {% if cat.has_groups %}
-    {% set total_cards = cat.groups | map(attribute='cards') | map('length') | sum %}
     <div class="groups-row">
       {% for group in cat.groups %}
-      <div class="subgroup" style="flex-basis: {{ (group.cards|length / total_cards * 100) | round(2) }}%;">
+      <div class="subgroup" style="flex-grow: {{ [group.cards|length, 1] | max }};">
         <div class="subgroup-header" style="background: {{ palette.fill }}20; border-color: {{ palette.stroke }}; color: {{ palette.stroke }};">
           {{ group.name }}
         </div>
