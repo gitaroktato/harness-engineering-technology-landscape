@@ -53,28 +53,17 @@
       display: flex;
       gap: 10px;
       padding: 12px;
+      flex-wrap: wrap;
       align-items: flex-start;
     }
 
+    /* A sub-group may shrink, but never below the width of one card */
     .subgroup {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       flex: 1 1 auto;
-      min-width: 0;
-    }
-
-    /* Cards inside sub-groups stay near the standard 220px but can shrink
-       slightly so an extra column fits whenever the group has the space */
-    .subgroup .card {
-      flex: 1 1 196px;
-      min-width: 0;
-      max-width: 220px;
-    }
-
-    /* A lone card fills its (narrow) group instead of leaving a gap */
-    .subgroup .card:only-child {
-      max-width: none;
+      min-width: 220px;
     }
 
     .subgroup-header {
@@ -93,7 +82,9 @@
       border-radius: 6px;
       border: 1px solid;
       padding: 8px 10px;
+      flex: 0 0 220px;
       width: 220px;
+      min-width: 220px;
       min-height: 100px;
       display: flex;
       flex-direction: column;

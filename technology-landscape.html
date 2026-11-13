@@ -53,28 +53,17 @@
       display: flex;
       gap: 10px;
       padding: 12px;
+      flex-wrap: wrap;
       align-items: flex-start;
     }
 
+    /* A sub-group may shrink, but never below the width of one card */
     .subgroup {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       flex: 1 1 auto;
-      min-width: 0;
-    }
-
-    /* Cards inside sub-groups stay near the standard 220px but can shrink
-       slightly so an extra column fits whenever the group has the space */
-    .subgroup .card {
-      flex: 1 1 196px;
-      min-width: 0;
-      max-width: 220px;
-    }
-
-    /* A lone card fills its (narrow) group instead of leaving a gap */
-    .subgroup .card:only-child {
-      max-width: none;
+      min-width: 220px;
     }
 
     .subgroup-header {
@@ -93,7 +82,9 @@
       border-radius: 6px;
       border: 1px solid;
       padding: 8px 10px;
+      flex: 0 0 220px;
       width: 220px;
+      min-width: 220px;
       min-height: 100px;
       display: flex;
       flex-direction: column;
@@ -169,7 +160,7 @@
         <div class="card-repo">Fission-AI/OpenSpec</div>
         <div class="card-desc">Spec-driven development for AI coding assistants</div>
         
-        <div class="card-stars">&#9733; 74.5k</div>
+        <div class="card-stars">&#9733; 74.7k</div>
         
         
       </div>
@@ -182,7 +173,7 @@
         <div class="card-repo">github/spec-kit</div>
         <div class="card-desc">Toolkit to get started with Spec-Driven Development</div>
         
-        <div class="card-stars">&#9733; 149.1k</div>
+        <div class="card-stars">&#9733; 149.6k</div>
         
         
       </div>
@@ -195,7 +186,7 @@
         <div class="card-repo">bmad-code-org/bmad-method</div>
         <div class="card-desc">Breakthrough Method for Agile AI Driven Development</div>
         
-        <div class="card-stars">&#9733; 55.2k</div>
+        <div class="card-stars">&#9733; 55.3k</div>
         
         
       </div>
@@ -221,7 +212,7 @@
         <div class="card-repo">specula-org/Specula</div>
         <div class="card-desc">Specula: An agentic tool for finding deep bugs in system code using TLA+. It uses coding agents to write TLA+ specs of the target system.</div>
         
-        <div class="card-stars">&#9733; 643</div>
+        <div class="card-stars">&#9733; 647</div>
         
         
       </div>
@@ -234,7 +225,7 @@
         <div class="card-repo">open-gsd/gsd-core</div>
         <div class="card-desc">Context-engineering and spec-driven development framework that drives AI coding agents</div>
         
-        <div class="card-stars">&#9733; 11.4k</div>
+        <div class="card-stars">&#9733; 11.5k</div>
         
         
       </div>
@@ -247,7 +238,7 @@
         <div class="card-repo">google/elephant-goldfish-model</div>
         <div class="card-desc">Open-source plugin for designing and reviewing software with agents</div>
         
-        <div class="card-stars">&#9733; 17.3k</div>
+        <div class="card-stars">&#9733; 18.3k</div>
         
         
       </div>
@@ -279,7 +270,7 @@
           <div class="card-repo">earendil-works/pi</div>
           <div class="card-desc">Minimal agent harness — adapt to your workflow, not vice versa</div>
           
-          <div class="card-stars">&#9733; 121.2k</div>
+          <div class="card-stars">&#9733; 121.7k</div>
           
           
         </div>
@@ -292,7 +283,7 @@
           <div class="card-repo">anomalyco/opencode</div>
           <div class="card-desc">OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop.</div>
           
-          <div class="card-stars">&#9733; 225.8k</div>
+          <div class="card-stars">&#9733; 226.5k</div>
           
           
         </div>
@@ -318,7 +309,7 @@
           <div class="card-repo">qwenLM/qwen-code</div>
           <div class="card-desc">An open-source AI agent for the terminal, optimized for Qwen series models</div>
           
-          <div class="card-stars">&#9733; 29.2k</div>
+          <div class="card-stars">&#9733; 30.0k</div>
           
           
         </div>
@@ -331,7 +322,7 @@
           <div class="card-repo">deepseek-ai/deepseek-harness</div>
           <div class="card-desc">Open-source agent harness developed by DeepSeek AI</div>
           
-          <div class="card-stars">&#9733; 278.0k</div>
+          <div class="card-stars">&#9733; 280.1k</div>
           
           
         </div>
@@ -383,7 +374,7 @@
           <div class="card-repo">anthropics/claude-code</div>
           <div class="card-desc">Agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows</div>
           
-          <div class="card-stars">&#9733; 155.3k</div>
+          <div class="card-stars">&#9733; 155.5k</div>
           
           
         </div>
@@ -396,7 +387,7 @@
           <div class="card-repo">openai/codex</div>
           <div class="card-desc">Lightweight coding agent that runs in your terminal</div>
           
-          <div class="card-stars">&#9733; 134.9k</div>
+          <div class="card-stars">&#9733; 135.1k</div>
           
           
         </div>
@@ -440,7 +431,7 @@
           <div class="card-repo">alibaba/open-code-review</div>
           <div class="card-desc">Hybrid-architecture code review tool combining deterministic pipelines with an LLM agent for precise line-level comments and built-in multi-language rulesets</div>
           
-          <div class="card-stars">&#9733; 49.8k</div>
+          <div class="card-stars">&#9733; 50.1k</div>
           
           
         </div>
@@ -473,7 +464,7 @@
           <div class="card-repo">AtomicBot-ai/atomic-agent</div>
           <div class="card-desc">A local-first AI agent that runs on your machine, with local or cloud models.</div>
           
-          <div class="card-stars">&#9733; 3.4k</div>
+          <div class="card-stars">&#9733; 3.6k</div>
           
           
         </div>
@@ -502,7 +493,7 @@
         <div class="card-repo">volcengine/OpenViking</div>
         <div class="card-desc">Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</div>
         
-        <div class="card-stars">&#9733; 41.9k</div>
+        <div class="card-stars">&#9733; 42.1k</div>
         
         
       </div>
@@ -554,7 +545,7 @@
         <div class="card-repo">OpenHands/OpenHands</div>
         <div class="card-desc">The self-hosted developer control center for coding agents and automations.</div>
         
-        <div class="card-stars">&#9733; 93.1k</div>
+        <div class="card-stars">&#9733; 93.4k</div>
         
         
       </div>
@@ -612,7 +603,7 @@
           <div class="card-repo">microsoft/conductor</div>
           <div class="card-desc">Multi-agent workflows with GitHub Copilot SDK</div>
           
-          <div class="card-stars">&#9733; 497</div>
+          <div class="card-stars">&#9733; 500</div>
           
           
         </div>
@@ -664,7 +655,7 @@
           <div class="card-repo">aden-hive/hive</div>
           <div class="card-desc">Multi-agent harness for production AI workloads</div>
           
-          <div class="card-stars">&#9733; 11.1k</div>
+          <div class="card-stars">&#9733; 11.2k</div>
           
           
         </div>
@@ -703,7 +694,7 @@
           <div class="card-repo">awslabs/aidlc-workflows</div>
           <div class="card-desc">AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents</div>
           
-          <div class="card-stars">&#9733; 6.0k</div>
+          <div class="card-stars">&#9733; 6.1k</div>
           
           
         </div>
@@ -716,7 +707,7 @@
           <div class="card-repo">humanlayer/humanlayer</div>
           <div class="card-desc">HumanLayer runs coding agents (Claude Code, Codex, OpenCode, Pi) on your machines and lets your team steer them from one place: tasks, sessions, plans, and reviews, synced between a desktop app, a web app, and a daemon on each host.</div>
           
-          <div class="card-stars">&#9733; 12.8k</div>
+          <div class="card-stars">&#9733; 12.9k</div>
           
           
         </div>
@@ -729,7 +720,7 @@
           <div class="card-repo">google-research/harness2</div>
           <div class="card-desc">Recursive agent harnessing framework that optimizes the system around a model: prompts, tools, memory, skills and orchestration</div>
           
-          <div class="card-stars">&#9733; 23.4k</div>
+          <div class="card-stars">&#9733; 23.6k</div>
           
           
         </div>
@@ -749,7 +740,7 @@
           <div class="card-repo">pingdotgg/t3code</div>
           <div class="card-desc">T3 Code is an agent harness control surface.</div>
           
-          <div class="card-stars">&#9733; 55.2k</div>
+          <div class="card-stars">&#9733; 58.7k</div>
           
           
         </div>
@@ -762,7 +753,7 @@
           <div class="card-repo">paperclipai/paperclip</div>
           <div class="card-desc">The open-source app everyone uses to manage agents at work</div>
           
-          <div class="card-stars">&#9733; 113.0k</div>
+          <div class="card-stars">&#9733; 113.5k</div>
           
           
         </div>
@@ -775,7 +766,7 @@
           <div class="card-repo">stablyai/orca</div>
           <div class="card-desc">Run a fleet of coding agents (Claude Code, Codex) with your own subscription; available on desktop, mobile and remote runtime</div>
           
-          <div class="card-stars">&#9733; 121.9k</div>
+          <div class="card-stars">&#9733; 123.8k</div>
           
           
         </div>
@@ -830,7 +821,7 @@
         <div class="card-repo">ast-grep/ast-grep</div>
         <div class="card-desc">CLI tool for code structural search, lint and rewriting in Rust</div>
         
-        <div class="card-stars">&#9733; 16.5k</div>
+        <div class="card-stars">&#9733; 16.6k</div>
         
         
       </div>
@@ -856,7 +847,7 @@
         <div class="card-repo">Graphify-Labs/graphify</div>
         <div class="card-desc">Turn code and docs into queryable AI knowledge graphs</div>
         
-        <div class="card-stars">&#9733; 145.4k</div>
+        <div class="card-stars">&#9733; 146.9k</div>
         
         
       </div>
@@ -869,7 +860,7 @@
         <div class="card-repo">Egonex-AI/Understand-Anything</div>
         <div class="card-desc">Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</div>
         
-        <div class="card-stars">&#9733; 91.8k</div>
+        <div class="card-stars">&#9733; 92.5k</div>
         
         
       </div>
@@ -945,7 +936,7 @@
         <div class="card-repo">deeplethe/forkd</div>
         <div class="card-desc">fork() for AI agent microVMs; spawn 100 children in ~100ms</div>
         
-        <div class="card-stars">&#9733; 6.0k</div>
+        <div class="card-stars">&#9733; 6.1k</div>
         
         
       </div>
@@ -958,7 +949,7 @@
         <div class="card-repo">opensandbox-group/OpenSandbox</div>
         <div class="card-desc">Secure, fast, extensible sandbox runtime for AI agents</div>
         
-        <div class="card-stars">&#9733; 17.1k</div>
+        <div class="card-stars">&#9733; 17.3k</div>
         
         
       </div>
@@ -997,7 +988,7 @@
         <div class="card-repo">herdrdev/herdr</div>
         <div class="card-desc">Native app for running coding agents; your agent reshapes the UI, and herdr-core keeps sessions alive when the app is closed</div>
         
-        <div class="card-stars">&#9733; 49.9k</div>
+        <div class="card-stars">&#9733; 50.7k</div>
         
         
       </div>
@@ -1034,7 +1025,7 @@
         <div class="card-repo">strands-agents/box</div>
         <div class="card-desc">Rust sandbox for AI agents; OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent, on macOS and Linux</div>
         
-        <div class="card-stars">&#9733; 530</div>
+        <div class="card-stars">&#9733; 539</div>
         
         
       </div>
@@ -1084,7 +1075,7 @@
           <div class="card-repo">agent-ecosystem/skill-validator</div>
           <div class="card-desc">Validates skill content against the Agent Skill specification</div>
           
-          <div class="card-stars">&#9733; 265</div>
+          <div class="card-stars">&#9733; 267</div>
           
           
         </div>
@@ -1137,7 +1128,7 @@
           <div class="card-repo">vercel-labs/skills</div>
           <div class="card-desc">Open agent skills CLI; supports OpenCode, Claude Code, Codex, Cursor and 68+ more</div>
           
-          <div class="card-stars">&#9733; 38.8k</div>
+          <div class="card-stars">&#9733; 39.2k</div>
           
           
         </div>
@@ -1150,7 +1141,7 @@
           <div class="card-repo">microsoft/apm</div>
           <div class="card-desc">An open-source, community-driven dependency manager for AI agents.</div>
           
-          <div class="card-stars">&#9733; 4.3k</div>
+          <div class="card-stars">&#9733; 4.4k</div>
           
           
         </div>
@@ -1163,7 +1154,7 @@
           <div class="card-repo">xingkongliang/skills-manager</div>
           <div class="card-desc">A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</div>
           
-          <div class="card-stars">&#9733; 7.4k</div>
+          <div class="card-stars">&#9733; 7.5k</div>
           
           
         </div>
@@ -1196,7 +1187,7 @@
           <div class="card-repo">cisco-ai-defense/defenseclaw</div>
           <div class="card-desc">Security governance for agentic AI; scan capabilities, inspect traffic, audit evidence</div>
           
-          <div class="card-stars">&#9733; 912</div>
+          <div class="card-stars">&#9733; 911</div>
           
           
         </div>
@@ -1209,7 +1200,7 @@
           <div class="card-repo">nvidia/skillspector</div>
           <div class="card-desc">Security scanner for AI agent skills; detects vulnerabilities before installation</div>
           
-          <div class="card-stars">&#9733; 25.2k</div>
+          <div class="card-stars">&#9733; 25.7k</div>
           
           
         </div>
@@ -1222,7 +1213,7 @@
           <div class="card-repo">cloudflare/security-audit-skill</div>
           <div class="card-desc">Coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</div>
           
-          <div class="card-stars">&#9733; 69.7k</div>
+          <div class="card-stars">&#9733; 71.4k</div>
           
           
         </div>
@@ -1270,7 +1261,7 @@
           <div class="card-repo">zosmaai/pi-llm-wiki</div>
           <div class="card-desc">Self-maintaining, Obsidian-compatible knowledge base for pi</div>
           
-          <div class="card-stars">&#9733; 627</div>
+          <div class="card-stars">&#9733; 628</div>
           
           
         </div>
@@ -1360,7 +1351,7 @@
           <div class="card-repo">upstash/context7</div>
           <div class="card-desc">Up-to-date documentation for LLMs and AI code editors</div>
           
-          <div class="card-stars">&#9733; 64.5k</div>
+          <div class="card-stars">&#9733; 64.7k</div>
           
           
         </div>
@@ -1384,7 +1375,7 @@
           <div class="card-repo">nvidia/skills</div>
           <div class="card-desc">Official NVIDIA-verified skills catalog for CUDA-X, AI Blueprints and platform tools</div>
           
-          <div class="card-stars">&#9733; 3.9k</div>
+          <div class="card-stars">&#9733; 4.0k</div>
           
           
         </div>
@@ -1410,7 +1401,7 @@
           <div class="card-repo">angular/skills</div>
           <div class="card-desc">Official Angular agent skills package; teaches AI coding assistants how to build Angular apps.</div>
           
-          <div class="card-stars">&#9733; 721</div>
+          <div class="card-stars">&#9733; 725</div>
           
           
         </div>
@@ -1439,7 +1430,7 @@
         <div class="card-repo">rtk-ai/rtk</div>
         <div class="card-desc">CLI proxy reduces LLM token consumption by 60-90% on common dev commands; single Rust binary</div>
         
-        <div class="card-stars">&#9733; 86.1k</div>
+        <div class="card-stars">&#9733; 86.4k</div>
         
         
       </div>
@@ -1452,7 +1443,7 @@
         <div class="card-repo">dietrichgebert/ponytail</div>
         <div class="card-desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</div>
         
-        <div class="card-stars">&#9733; 188.2k</div>
+        <div class="card-stars">&#9733; 189.9k</div>
         
         
       </div>
@@ -1465,7 +1456,7 @@
         <div class="card-repo">gglucass/headroom-desktop</div>
         <div class="card-desc">MacOS menu bar app cuts Claude Code and Codex token costs by ~50%</div>
         
-        <div class="card-stars">&#9733; 640</div>
+        <div class="card-stars">&#9733; 641</div>
         
         
       </div>
@@ -1478,7 +1469,7 @@
         <div class="card-repo">JuliusBrussee/caveman</div>
         <div class="card-desc">An efficiency stack for AI agents - cuts 65% of tokens by talking like caveman</div>
         
-        <div class="card-stars">&#9733; 118.8k</div>
+        <div class="card-stars">&#9733; 119.5k</div>
         
         
       </div>
@@ -1504,7 +1495,7 @@
         <div class="card-repo">langfuse/langfuse</div>
         <div class="card-desc">Open source AI observability platform; LLM evals, metrics, tracing, prompt management</div>
         
-        <div class="card-stars">&#9733; 37.3k</div>
+        <div class="card-stars">&#9733; 37.4k</div>
         
         
       </div>
@@ -1517,7 +1508,7 @@
         <div class="card-repo">Arize-ai/phoenix</div>
         <div class="card-desc">AI observability and evaluation by Arize; traces, evals, datasets</div>
         
-        <div class="card-stars">&#9733; 12.2k</div>
+        <div class="card-stars">&#9733; 12.3k</div>
         
         
       </div>
